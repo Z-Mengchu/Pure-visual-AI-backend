@@ -1,0 +1,210 @@
+2024-02-24 13:47:33.815 [main] INFO  com.mengchu.CompetitionCaseApplicationTests - Starting CompetitionCaseApplicationTests using Java 21.0.1 with PID 17320 (started by 17317 in D:\java-basic\competition-case)
+2024-02-24 13:47:33.821 [main] INFO  com.mengchu.CompetitionCaseApplicationTests - The following 1 profile is active: "dev"
+2024-02-24 13:47:36.395 [main] INFO  com.mengchu.CompetitionCaseApplicationTests - Started CompetitionCaseApplicationTests in 3.022 seconds (process running for 4.753)
+2024-02-24 13:47:37.567 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2024-02-24 13:49:01.815 [main] INFO  com.mengchu.CompetitionCaseApplicationTests - Starting CompetitionCaseApplicationTests using Java 21.0.1 with PID 22532 (started by 17317 in D:\java-basic\competition-case)
+2024-02-24 13:49:01.819 [main] INFO  com.mengchu.CompetitionCaseApplicationTests - The following 1 profile is active: "dev"
+2024-02-24 13:49:04.134 [main] INFO  com.mengchu.CompetitionCaseApplicationTests - Started CompetitionCaseApplicationTests in 2.702 seconds (process running for 3.488)
+2024-02-24 13:49:04.981 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2024-02-24 13:55:51.367 [main] INFO  com.mengchu.CompetitionCaseApplicationTests - Starting CompetitionCaseApplicationTests using Java 21.0.1 with PID 13216 (started by 17317 in D:\java-basic\competition-case)
+2024-02-24 13:55:51.369 [main] INFO  com.mengchu.CompetitionCaseApplicationTests - The following 1 profile is active: "dev"
+2024-02-24 13:55:53.996 [main] INFO  com.mengchu.CompetitionCaseApplicationTests - Started CompetitionCaseApplicationTests in 3.03 seconds (process running for 4.191)
+2024-02-24 13:56:15.939 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2024-02-24 13:56:53.079 [main] INFO  com.mengchu.CompetitionCaseApplicationTests - Starting CompetitionCaseApplicationTests using Java 21.0.1 with PID 21680 (started by 17317 in D:\java-basic\competition-case)
+2024-02-24 13:56:53.080 [main] INFO  com.mengchu.CompetitionCaseApplicationTests - The following 1 profile is active: "dev"
+2024-02-24 13:56:55.429 [main] INFO  com.mengchu.CompetitionCaseApplicationTests - Started CompetitionCaseApplicationTests in 2.74 seconds (process running for 3.533)
+2024-02-24 13:56:56.254 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2024-02-24 13:57:27.519 [main] INFO  com.mengchu.CompetitionCaseApplicationTests - Starting CompetitionCaseApplicationTests using Java 21.0.1 with PID 25504 (started by 17317 in D:\java-basic\competition-case)
+2024-02-24 13:57:27.521 [main] INFO  com.mengchu.CompetitionCaseApplicationTests - The following 1 profile is active: "dev"
+2024-02-24 13:57:29.962 [main] INFO  com.mengchu.CompetitionCaseApplicationTests - Started CompetitionCaseApplicationTests in 2.789 seconds (process running for 3.59)
+2024-02-24 13:57:30.836 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2024-02-24 15:52:44.039 [main] INFO  com.mengchu.CompetitionCaseApplicationTests - Starting CompetitionCaseApplicationTests using Java 21.0.1 with PID 12592 (started by 17317 in D:\java-basic\competition-case)
+2024-02-24 15:52:44.040 [main] INFO  com.mengchu.CompetitionCaseApplicationTests - The following 1 profile is active: "dev"
+2024-02-24 15:52:46.552 [main] INFO  com.mengchu.CompetitionCaseApplicationTests - Started CompetitionCaseApplicationTests in 2.891 seconds (process running for 4.027)
+2024-02-24 15:52:47.419 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2024-02-24 15:55:28.434 [main] INFO  com.mengchu.CompetitionCaseApplicationTests - Starting CompetitionCaseApplicationTests using Java 21.0.1 with PID 4156 (started by 17317 in D:\java-basic\competition-case)
+2024-02-24 15:55:28.436 [main] INFO  com.mengchu.CompetitionCaseApplicationTests - The following 1 profile is active: "dev"
+2024-02-24 15:55:30.828 [main] INFO  com.mengchu.CompetitionCaseApplicationTests - Started CompetitionCaseApplicationTests in 2.757 seconds (process running for 3.61)
+2024-02-24 15:55:31.656 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2024-02-24 15:56:21.930 [main] INFO  com.mengchu.CompetitionCaseApplicationTests - Starting CompetitionCaseApplicationTests using Java 21.0.1 with PID 5484 (started by 17317 in D:\java-basic\competition-case)
+2024-02-24 15:56:21.931 [main] INFO  com.mengchu.CompetitionCaseApplicationTests - The following 1 profile is active: "dev"
+2024-02-24 15:56:24.250 [main] INFO  com.mengchu.CompetitionCaseApplicationTests - Started CompetitionCaseApplicationTests in 2.676 seconds (process running for 3.476)
+2024-02-24 15:56:25.117 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2024-02-24 15:57:45.597 [main] INFO  com.mengchu.CompetitionCaseApplicationTests - Starting CompetitionCaseApplicationTests using Java 21.0.1 with PID 15820 (started by 17317 in D:\java-basic\competition-case)
+2024-02-24 15:57:45.599 [main] INFO  com.mengchu.CompetitionCaseApplicationTests - The following 1 profile is active: "dev"
+2024-02-24 15:57:48.067 [main] INFO  com.mengchu.CompetitionCaseApplicationTests - Started CompetitionCaseApplicationTests in 2.838 seconds (process running for 3.627)
+2024-02-24 15:57:48.958 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2024-02-24 15:58:04.181 [main] INFO  com.mengchu.CompetitionCaseApplicationTests - Starting CompetitionCaseApplicationTests using Java 21.0.1 with PID 7232 (started by 17317 in D:\java-basic\competition-case)
+2024-02-24 15:58:04.182 [main] INFO  com.mengchu.CompetitionCaseApplicationTests - The following 1 profile is active: "dev"
+2024-02-24 15:58:06.429 [main] INFO  com.mengchu.CompetitionCaseApplicationTests - Started CompetitionCaseApplicationTests in 2.611 seconds (process running for 3.401)
+2024-02-24 15:58:07.240 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2024-02-24 15:59:46.246 [main] INFO  com.mengchu.CompetitionCaseApplicationTests - Starting CompetitionCaseApplicationTests using Java 21.0.1 with PID 6116 (started by 17317 in D:\java-basic\competition-case)
+2024-02-24 15:59:46.248 [main] INFO  com.mengchu.CompetitionCaseApplicationTests - The following 1 profile is active: "dev"
+2024-02-24 15:59:48.523 [main] INFO  com.mengchu.CompetitionCaseApplicationTests - Started CompetitionCaseApplicationTests in 2.652 seconds (process running for 3.44)
+2024-02-24 15:59:49.385 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2024-02-24 16:57:58.094 [main] INFO  com.mengchu.CompetitionCaseApplication - Starting CompetitionCaseApplication using Java 21.0.1 with PID 15872 (D:\java-basic\competition-case\target\classes started by 17317 in D:\java-basic\competition-case)
+2024-02-24 16:57:58.098 [main] INFO  com.mengchu.CompetitionCaseApplication - The following 1 profile is active: "dev"
+2024-02-24 16:57:58.825 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-02-24 16:57:58.833 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-02-24 16:57:58.835 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-02-24 16:57:58.836 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-24 16:57:58.883 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-02-24 16:57:58.883 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 760 ms
+2024-02-24 16:57:59.363 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-02-24 16:57:59.378 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2024-02-24 16:57:59.384 [main] INFO  com.mengchu.CompetitionCaseApplication - Started CompetitionCaseApplication in 1.635 seconds (process running for 2.388)
+2024-02-24 16:58:23.427 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2024-02-24 17:06:44.075 [main] INFO  com.mengchu.CompetitionCaseApplicationTests - Starting CompetitionCaseApplicationTests using Java 21.0.1 with PID 26980 (started by 17317 in D:\java-basic\competition-case)
+2024-02-24 17:06:44.076 [main] INFO  com.mengchu.CompetitionCaseApplicationTests - The following 1 profile is active: "dev"
+2024-02-24 17:06:46.604 [main] INFO  com.mengchu.CompetitionCaseApplicationTests - Started CompetitionCaseApplicationTests in 2.907 seconds (process running for 3.771)
+2024-02-24 17:08:15.783 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2024-02-24 17:08:19.818 [main] INFO  com.mengchu.CompetitionCaseApplicationTests - Starting CompetitionCaseApplicationTests using Java 21.0.1 with PID 27464 (started by 17317 in D:\java-basic\competition-case)
+2024-02-24 17:08:19.819 [main] INFO  com.mengchu.CompetitionCaseApplicationTests - The following 1 profile is active: "dev"
+2024-02-24 17:08:22.206 [main] INFO  com.mengchu.CompetitionCaseApplicationTests - Started CompetitionCaseApplicationTests in 2.771 seconds (process running for 3.577)
+2024-02-24 17:10:18.756 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2024-02-24 17:10:22.609 [main] INFO  com.mengchu.CompetitionCaseApplicationTests - Starting CompetitionCaseApplicationTests using Java 21.0.1 with PID 27076 (started by 17317 in D:\java-basic\competition-case)
+2024-02-24 17:10:22.611 [main] INFO  com.mengchu.CompetitionCaseApplicationTests - The following 1 profile is active: "dev"
+2024-02-24 17:10:24.888 [main] INFO  com.mengchu.CompetitionCaseApplicationTests - Started CompetitionCaseApplicationTests in 2.641 seconds (process running for 3.458)
+2024-02-24 17:10:48.742 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2024-02-24 17:10:52.859 [main] INFO  com.mengchu.CompetitionCaseApplicationTests - Starting CompetitionCaseApplicationTests using Java 21.0.1 with PID 21996 (started by 17317 in D:\java-basic\competition-case)
+2024-02-24 17:10:52.860 [main] INFO  com.mengchu.CompetitionCaseApplicationTests - The following 1 profile is active: "dev"
+2024-02-24 17:10:55.309 [main] INFO  com.mengchu.CompetitionCaseApplicationTests - Started CompetitionCaseApplicationTests in 2.811 seconds (process running for 3.598)
+2024-02-24 17:11:49.109 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2024-02-24 17:12:08.131 [main] INFO  com.mengchu.CompetitionCaseApplicationTests - Starting CompetitionCaseApplicationTests using Java 21.0.1 with PID 180 (started by 17317 in D:\java-basic\competition-case)
+2024-02-24 17:12:08.132 [main] INFO  com.mengchu.CompetitionCaseApplicationTests - The following 1 profile is active: "dev"
+2024-02-24 17:12:10.470 [main] INFO  com.mengchu.CompetitionCaseApplicationTests - Started CompetitionCaseApplicationTests in 2.76 seconds (process running for 3.621)
+2024-02-24 17:12:15.592 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2024-02-24 18:51:23.215 [main] INFO  com.mengchu.CompetitionCaseApplicationTests - Starting CompetitionCaseApplicationTests using Java 21.0.1 with PID 12692 (started by 17317 in D:\java-basic\competition-case)
+2024-02-24 18:51:23.216 [main] INFO  com.mengchu.CompetitionCaseApplicationTests - The following 1 profile is active: "dev"
+2024-02-24 18:51:25.542 [main] INFO  com.mengchu.CompetitionCaseApplicationTests - Started CompetitionCaseApplicationTests in 2.692 seconds (process running for 3.517)
+2024-02-24 18:51:26.260 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2024-02-24 18:51:56.429 [main] INFO  com.mengchu.CompetitionCaseApplicationTests - Starting CompetitionCaseApplicationTests using Java 21.0.1 with PID 13548 (started by 17317 in D:\java-basic\competition-case)
+2024-02-24 18:51:56.430 [main] INFO  com.mengchu.CompetitionCaseApplicationTests - The following 1 profile is active: "dev"
+2024-02-24 18:51:59.125 [main] INFO  com.mengchu.CompetitionCaseApplicationTests - Started CompetitionCaseApplicationTests in 3.073 seconds (process running for 3.886)
+2024-02-24 18:51:59.948 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2024-02-24 18:52:56.923 [main] INFO  com.mengchu.CompetitionCaseApplicationTests - Starting CompetitionCaseApplicationTests using Java 21.0.1 with PID 4264 (started by 17317 in D:\java-basic\competition-case)
+2024-02-24 18:52:56.924 [main] INFO  com.mengchu.CompetitionCaseApplicationTests - The following 1 profile is active: "dev"
+2024-02-24 18:52:59.232 [main] INFO  com.mengchu.CompetitionCaseApplicationTests - Started CompetitionCaseApplicationTests in 2.676 seconds (process running for 3.481)
+2024-02-24 18:52:59.942 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2024-02-24 19:19:56.070 [main] INFO  com.mengchu.CompetitionCaseApplicationTests - Starting CompetitionCaseApplicationTests using Java 21.0.1 with PID 25564 (started by 17317 in D:\java-basic\competition-case)
+2024-02-24 19:19:56.072 [main] INFO  com.mengchu.CompetitionCaseApplicationTests - The following 1 profile is active: "dev"
+2024-02-24 19:19:58.329 [main] INFO  com.mengchu.CompetitionCaseApplicationTests - Started CompetitionCaseApplicationTests in 2.651 seconds (process running for 3.449)
+2024-02-24 19:19:59.035 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2024-02-24 20:02:55.774 [main] INFO  com.mengchu.CompetitionCaseApplication - Starting CompetitionCaseApplication using Java 21.0.1 with PID 24780 (D:\java-basic\competition-case\target\classes started by 17317 in D:\java-basic\competition-case)
+2024-02-24 20:02:55.775 [main] INFO  com.mengchu.CompetitionCaseApplication - The following 1 profile is active: "dev"
+2024-02-24 20:02:56.591 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-02-24 20:02:56.598 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-02-24 20:02:56.599 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-02-24 20:02:56.600 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-24 20:02:56.637 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-02-24 20:02:56.637 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 824 ms
+2024-02-24 20:02:57.118 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-02-24 20:02:57.133 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2024-02-24 20:02:57.138 [main] INFO  com.mengchu.CompetitionCaseApplication - Started CompetitionCaseApplication in 1.809 seconds (process running for 2.33)
+2024-02-24 20:05:05.606 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-24 20:05:05.607 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-02-24 20:05:05.608 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-02-24 20:05:05.822 [http-nio-8080-exec-1] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 未登录，NOT_LOGIN
+2024-02-24 20:05:15.331 [http-nio-8080-exec-7] INFO  com.mengchu.controller.LoginController - 用户登陆，zhangsan
+2024-02-24 20:05:15.405 [http-nio-8080-exec-7] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-02-24 20:05:15.530 [Druid-ConnectionPool-Create-317178090] INFO  com.alibaba.druid.pool.DruidAbstractDataSource - {dataSource-1} failContinuous is true
+2024-02-24 20:05:24.546 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-02-24 20:05:24.547 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2024-02-24 20:06:32.747 [main] INFO  com.mengchu.CompetitionCaseApplication - Starting CompetitionCaseApplication using Java 21.0.1 with PID 14692 (D:\java-basic\competition-case\target\classes started by 17317 in D:\java-basic\competition-case)
+2024-02-24 20:06:32.748 [main] INFO  com.mengchu.CompetitionCaseApplication - The following 1 profile is active: "dev"
+2024-02-24 20:06:33.442 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-02-24 20:06:33.449 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-02-24 20:06:33.451 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-02-24 20:06:33.451 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-24 20:06:33.487 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-02-24 20:06:33.487 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 711 ms
+2024-02-24 20:06:33.951 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-02-24 20:06:33.965 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2024-02-24 20:06:33.970 [main] INFO  com.mengchu.CompetitionCaseApplication - Started CompetitionCaseApplication in 1.597 seconds (process running for 2.02)
+2024-02-24 20:06:37.209 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-24 20:06:37.209 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-02-24 20:06:37.211 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-02-24 20:06:37.275 [http-nio-8080-exec-2] INFO  com.mengchu.controller.LoginController - 用户登陆，zhangsan
+2024-02-24 20:06:37.307 [http-nio-8080-exec-2] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-02-24 20:06:47.487 [http-nio-8080-exec-8] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1708949197, username=zhangsan}
+2024-02-24 20:06:47.488 [http-nio-8080-exec-8] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-02-24 20:06:47.492 [http-nio-8080-exec-8] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-02-24 20:06:47.493 [http-nio-8080-exec-8] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-02-24 20:09:02.848 [http-nio-8080-exec-6] INFO  com.mengchu.controller.LoginController - 用户登陆，zhangsan
+2024-02-24 20:10:33.617 [http-nio-8080-exec-3] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1708949197, username=zhangsan}
+2024-02-24 20:10:33.617 [http-nio-8080-exec-3] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-02-24 20:10:33.617 [http-nio-8080-exec-3] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-02-24 20:10:33.618 [http-nio-8080-exec-3] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-02-24 20:10:43.424 [http-nio-8080-exec-10] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1708949342, username=zhangsan}
+2024-02-24 20:10:43.424 [http-nio-8080-exec-10] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-02-24 20:19:13.421 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-02-24 20:19:13.427 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2024-02-24 20:19:18.202 [main] INFO  com.mengchu.CompetitionCaseApplication - Starting CompetitionCaseApplication using Java 21.0.1 with PID 23188 (D:\java-basic\competition-case\target\classes started by 17317 in D:\java-basic\competition-case)
+2024-02-24 20:19:18.204 [main] INFO  com.mengchu.CompetitionCaseApplication - The following 1 profile is active: "dev"
+2024-02-24 20:19:18.935 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-02-24 20:19:18.942 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-02-24 20:19:18.943 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-02-24 20:19:18.943 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-24 20:19:18.979 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-02-24 20:19:18.979 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 737 ms
+2024-02-24 20:19:19.443 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-02-24 20:19:19.459 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2024-02-24 20:19:19.464 [main] INFO  com.mengchu.CompetitionCaseApplication - Started CompetitionCaseApplication in 1.646 seconds (process running for 2.104)
+2024-02-24 20:19:25.883 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-24 20:19:25.884 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-02-24 20:19:25.886 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-02-24 20:19:26.064 [http-nio-8080-exec-1] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1708949342, username=zhangsan}
+2024-02-24 20:19:26.064 [http-nio-8080-exec-1] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-02-24 20:19:26.103 [http-nio-8080-exec-1] INFO  com.mengchu.controller.WorkController - /get被访问
+2024-02-24 20:19:40.402 [http-nio-8080-exec-3] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1708949197, username=zhangsan}
+2024-02-24 20:19:40.403 [http-nio-8080-exec-3] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-02-24 20:19:40.403 [http-nio-8080-exec-3] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-02-24 20:19:40.403 [http-nio-8080-exec-3] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-02-24 20:19:47.222 [http-nio-8080-exec-5] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1708949342, username=zhangsan}
+2024-02-24 20:19:47.223 [http-nio-8080-exec-5] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-02-24 20:19:47.223 [http-nio-8080-exec-5] INFO  com.mengchu.controller.WorkController - /get被访问
+2024-02-24 20:22:32.950 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2024-02-24 20:22:36.391 [main] INFO  com.mengchu.CompetitionCaseApplication - Starting CompetitionCaseApplication using Java 21.0.1 with PID 24676 (D:\java-basic\competition-case\target\classes started by 17317 in D:\java-basic\competition-case)
+2024-02-24 20:22:36.393 [main] INFO  com.mengchu.CompetitionCaseApplication - The following 1 profile is active: "dev"
+2024-02-24 20:22:37.113 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-02-24 20:22:37.122 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-02-24 20:22:37.123 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-02-24 20:22:37.123 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-24 20:22:37.159 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-02-24 20:22:37.159 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 736 ms
+2024-02-24 20:22:37.638 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-02-24 20:22:37.651 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2024-02-24 20:22:37.657 [main] INFO  com.mengchu.CompetitionCaseApplication - Started CompetitionCaseApplication in 1.648 seconds (process running for 2.059)
+2024-02-24 20:22:45.035 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-24 20:22:45.035 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-02-24 20:22:45.036 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-02-24 20:22:45.108 [http-nio-8080-exec-1] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1708949197, username=zhangsan}
+2024-02-24 20:22:45.108 [http-nio-8080-exec-1] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-02-24 20:22:45.118 [http-nio-8080-exec-1] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-02-24 20:22:45.118 [http-nio-8080-exec-1] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-02-24 20:22:54.156 [http-nio-8080-exec-2] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1708949342, username=zhangsan}
+2024-02-24 20:22:54.156 [http-nio-8080-exec-2] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-02-24 20:22:54.160 [http-nio-8080-exec-2] INFO  com.mengchu.controller.WorkController - /get被访问
+2024-02-24 21:19:29.925 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2024-02-24 21:43:45.522 [main] INFO  com.mengchu.CompetitionCaseApplication - Starting CompetitionCaseApplication using Java 21.0.1 with PID 19068 (D:\java-basic\competition-case\target\classes started by 17317 in D:\java-basic\competition-case)
+2024-02-24 21:43:45.523 [main] INFO  com.mengchu.CompetitionCaseApplication - The following 1 profile is active: "dev"
+2024-02-24 21:43:46.216 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-02-24 21:43:46.225 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-02-24 21:43:46.226 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-02-24 21:43:46.226 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-24 21:43:46.263 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-02-24 21:43:46.263 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 712 ms
+2024-02-24 21:43:46.732 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-02-24 21:43:46.745 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2024-02-24 21:43:46.751 [main] INFO  com.mengchu.CompetitionCaseApplication - Started CompetitionCaseApplication in 1.608 seconds (process running for 2.016)
+2024-02-24 21:43:50.850 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-24 21:43:50.850 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-02-24 21:43:50.851 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-02-24 21:43:50.926 [http-nio-8080-exec-1] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1708949197, username=zhangsan}
+2024-02-24 21:43:50.926 [http-nio-8080-exec-1] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-02-24 21:43:50.937 [http-nio-8080-exec-1] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-02-24 21:43:50.937 [http-nio-8080-exec-1] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-02-24 21:44:00.431 [http-nio-8080-exec-4] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1708949342, username=zhangsan}
+2024-02-24 21:44:00.432 [http-nio-8080-exec-4] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-02-24 21:44:00.439 [http-nio-8080-exec-4] INFO  com.mengchu.controller.WorkController - /get被访问
+2024-02-24 23:41:05.546 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...

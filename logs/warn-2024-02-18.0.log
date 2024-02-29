@@ -1,0 +1,1 @@
+2024-02-18 18:56:37.708 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'webConfig': Injection of autowired dependencies failed

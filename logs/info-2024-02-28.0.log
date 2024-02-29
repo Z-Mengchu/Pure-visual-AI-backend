@@ -1,0 +1,513 @@
+2024-02-28 16:02:32.769 [main] INFO  com.mengchu.CompetitionCaseApplication - Starting CompetitionCaseApplication using Java 21.0.1 with PID 21928 (D:\java-basic\competition-case\target\classes started by 17317 in D:\java-basic\competition-case)
+2024-02-28 16:02:32.781 [main] INFO  com.mengchu.CompetitionCaseApplication - The following 1 profile is active: "dev"
+2024-02-28 16:02:34.111 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-02-28 16:02:34.128 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-02-28 16:02:34.129 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-02-28 16:02:34.129 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-28 16:02:34.175 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-02-28 16:02:34.175 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1342 ms
+2024-02-28 16:02:34.748 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-02-28 16:02:34.761 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2024-02-28 16:02:34.767 [main] INFO  com.mengchu.CompetitionCaseApplication - Started CompetitionCaseApplication in 2.634 seconds (process running for 3.681)
+2024-02-28 16:03:58.402 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-28 16:03:58.403 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-02-28 16:03:58.405 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-02-28 16:04:05.557 [http-nio-8080-exec-3] INFO  com.mengchu.controller.LoginController - 用户登陆，zhangsan
+2024-02-28 16:04:05.657 [http-nio-8080-exec-3] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-02-28 16:04:24.694 [http-nio-8080-exec-4] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709280246, username=zhangsan}
+2024-02-28 16:04:24.694 [http-nio-8080-exec-4] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-02-28 16:04:24.698 [http-nio-8080-exec-4] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-02-28 16:04:24.698 [http-nio-8080-exec-4] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-02-28 16:06:04.778 [http-nio-8080-exec-10] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709280246, username=zhangsan}
+2024-02-28 16:06:04.778 [http-nio-8080-exec-10] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-02-28 16:06:04.782 [http-nio-8080-exec-10] INFO  com.mengchu.controller.WorkController - /get被访问
+2024-02-28 16:08:38.710 [http-nio-8080-exec-3] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709280246, username=zhangsan}
+2024-02-28 16:08:38.710 [http-nio-8080-exec-3] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-02-28 16:08:38.710 [http-nio-8080-exec-3] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-02-28 16:08:38.711 [http-nio-8080-exec-3] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-02-28 16:09:08.653 [http-nio-8080-exec-4] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709280246, username=zhangsan}
+2024-02-28 16:09:08.654 [http-nio-8080-exec-4] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-02-28 16:09:08.654 [http-nio-8080-exec-4] INFO  com.mengchu.controller.WorkController - /get被访问
+2024-02-28 16:13:24.143 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-02-28 16:13:24.149 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2024-02-28 16:13:28.600 [main] INFO  com.mengchu.CompetitionCaseApplication - Starting CompetitionCaseApplication using Java 21.0.1 with PID 10948 (D:\java-basic\competition-case\target\classes started by 17317 in D:\java-basic\competition-case)
+2024-02-28 16:13:28.602 [main] INFO  com.mengchu.CompetitionCaseApplication - The following 1 profile is active: "dev"
+2024-02-28 16:13:29.269 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-02-28 16:13:29.276 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-02-28 16:13:29.278 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-02-28 16:13:29.278 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-28 16:13:29.313 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-02-28 16:13:29.313 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 684 ms
+2024-02-28 16:13:29.767 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-02-28 16:13:29.788 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2024-02-28 16:13:29.793 [main] INFO  com.mengchu.CompetitionCaseApplication - Started CompetitionCaseApplication in 1.54 seconds (process running for 1.973)
+2024-02-28 16:13:48.142 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-28 16:13:48.143 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-02-28 16:13:48.146 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2024-02-28 16:13:48.369 [http-nio-8080-exec-1] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709280246, username=zhangsan}
+2024-02-28 16:13:48.370 [http-nio-8080-exec-1] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-02-28 16:13:48.394 [http-nio-8080-exec-1] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-02-28 16:13:48.394 [http-nio-8080-exec-1] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-02-28 16:14:01.745 [http-nio-8080-exec-3] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709280246, username=zhangsan}
+2024-02-28 16:14:01.745 [http-nio-8080-exec-3] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-02-28 16:14:01.752 [http-nio-8080-exec-3] INFO  com.mengchu.controller.WorkController - /get被访问
+2024-02-28 16:15:52.472 [http-nio-8080-exec-6] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709280246, username=zhangsan}
+2024-02-28 16:15:52.472 [http-nio-8080-exec-6] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-02-28 16:15:52.472 [http-nio-8080-exec-6] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-02-28 16:15:52.472 [http-nio-8080-exec-6] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-02-28 16:15:59.071 [http-nio-8080-exec-7] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709280246, username=zhangsan}
+2024-02-28 16:15:59.071 [http-nio-8080-exec-7] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-02-28 16:15:59.071 [http-nio-8080-exec-7] INFO  com.mengchu.controller.WorkController - /get被访问
+2024-02-28 16:16:27.651 [http-nio-8080-exec-8] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709280246, username=zhangsan}
+2024-02-28 16:16:27.651 [http-nio-8080-exec-8] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-02-28 16:16:27.652 [http-nio-8080-exec-8] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-02-28 16:16:27.652 [http-nio-8080-exec-8] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-02-28 16:17:21.365 [http-nio-8080-exec-9] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709280246, username=zhangsan}
+2024-02-28 16:17:21.365 [http-nio-8080-exec-9] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-02-28 16:17:21.365 [http-nio-8080-exec-9] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-02-28 16:17:21.365 [http-nio-8080-exec-9] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-02-28 16:17:40.891 [http-nio-8080-exec-10] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709280246, username=zhangsan}
+2024-02-28 16:17:40.891 [http-nio-8080-exec-10] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-02-28 16:17:40.891 [http-nio-8080-exec-10] INFO  com.mengchu.controller.WorkController - /get被访问
+2024-02-28 16:17:57.768 [http-nio-8080-exec-5] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709280246, username=zhangsan}
+2024-02-28 16:17:57.769 [http-nio-8080-exec-5] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-02-28 16:17:57.769 [http-nio-8080-exec-5] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-02-28 16:17:57.769 [http-nio-8080-exec-5] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-02-28 16:18:03.532 [http-nio-8080-exec-1] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709280246, username=zhangsan}
+2024-02-28 16:18:03.533 [http-nio-8080-exec-1] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-02-28 16:18:03.534 [http-nio-8080-exec-1] INFO  com.mengchu.controller.WorkController - /get被访问
+2024-02-28 16:18:23.195 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2024-02-28 16:21:43.497 [main] INFO  com.mengchu.CompetitionCaseApplication - Starting CompetitionCaseApplication using Java 21.0.1 with PID 9692 (D:\java-basic\competition-case\target\classes started by 17317 in D:\java-basic\competition-case)
+2024-02-28 16:21:43.499 [main] INFO  com.mengchu.CompetitionCaseApplication - The following 1 profile is active: "dev"
+2024-02-28 16:21:44.436 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-02-28 16:21:44.443 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-02-28 16:21:44.445 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-02-28 16:21:44.446 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-28 16:21:44.478 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-02-28 16:21:44.479 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 943 ms
+2024-02-28 16:21:44.937 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-02-28 16:21:44.950 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2024-02-28 16:21:44.956 [main] INFO  com.mengchu.CompetitionCaseApplication - Started CompetitionCaseApplication in 1.901 seconds (process running for 2.733)
+2024-02-28 16:22:12.523 [http-nio-8080-exec-6] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-28 16:22:12.523 [http-nio-8080-exec-6] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-02-28 16:22:12.525 [http-nio-8080-exec-6] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-02-28 16:22:12.734 [http-nio-8080-exec-6] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709280246, username=zhangsan}
+2024-02-28 16:22:12.735 [http-nio-8080-exec-6] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-02-28 16:22:12.763 [http-nio-8080-exec-6] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-02-28 16:22:12.763 [http-nio-8080-exec-6] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-02-28 16:26:43.628 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2024-02-28 16:26:46.709 [main] INFO  com.mengchu.CompetitionCaseApplication - Starting CompetitionCaseApplication using Java 21.0.1 with PID 5836 (D:\java-basic\competition-case\target\classes started by 17317 in D:\java-basic\competition-case)
+2024-02-28 16:26:46.711 [main] INFO  com.mengchu.CompetitionCaseApplication - The following 1 profile is active: "dev"
+2024-02-28 16:26:47.399 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-02-28 16:26:47.407 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-02-28 16:26:47.408 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-02-28 16:26:47.409 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-28 16:26:47.442 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-02-28 16:26:47.442 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 703 ms
+2024-02-28 16:26:47.884 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-02-28 16:26:47.896 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2024-02-28 16:26:47.901 [main] INFO  com.mengchu.CompetitionCaseApplication - Started CompetitionCaseApplication in 1.546 seconds (process running for 1.965)
+2024-02-28 16:26:54.402 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-28 16:26:54.402 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-02-28 16:26:54.403 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-02-28 16:26:54.475 [http-nio-8080-exec-1] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709280246, username=zhangsan}
+2024-02-28 16:26:54.475 [http-nio-8080-exec-1] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-02-28 16:26:54.484 [http-nio-8080-exec-1] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-02-28 16:26:54.484 [http-nio-8080-exec-1] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-02-28 16:27:21.859 [http-nio-8080-exec-4] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709280246, username=zhangsan}
+2024-02-28 16:27:21.859 [http-nio-8080-exec-4] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-02-28 16:27:21.862 [http-nio-8080-exec-4] INFO  com.mengchu.controller.WorkController - /get被访问
+2024-02-28 16:29:40.986 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2024-02-28 16:29:43.951 [main] INFO  com.mengchu.CompetitionCaseApplication - Starting CompetitionCaseApplication using Java 21.0.1 with PID 3476 (D:\java-basic\competition-case\target\classes started by 17317 in D:\java-basic\competition-case)
+2024-02-28 16:29:43.953 [main] INFO  com.mengchu.CompetitionCaseApplication - The following 1 profile is active: "dev"
+2024-02-28 16:29:44.637 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-02-28 16:29:44.645 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-02-28 16:29:44.646 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-02-28 16:29:44.646 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-28 16:29:44.683 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-02-28 16:29:44.683 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 700 ms
+2024-02-28 16:29:45.134 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-02-28 16:29:45.146 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2024-02-28 16:29:45.151 [main] INFO  com.mengchu.CompetitionCaseApplication - Started CompetitionCaseApplication in 1.56 seconds (process running for 1.979)
+2024-02-28 16:29:50.380 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-28 16:29:50.380 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-02-28 16:29:50.381 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-02-28 16:29:50.452 [http-nio-8080-exec-1] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709280246, username=zhangsan}
+2024-02-28 16:29:50.452 [http-nio-8080-exec-1] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-02-28 16:29:50.461 [http-nio-8080-exec-1] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-02-28 16:29:50.461 [http-nio-8080-exec-1] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-02-28 16:30:18.546 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2024-02-28 16:30:21.765 [main] INFO  com.mengchu.CompetitionCaseApplication - Starting CompetitionCaseApplication using Java 21.0.1 with PID 21696 (D:\java-basic\competition-case\target\classes started by 17317 in D:\java-basic\competition-case)
+2024-02-28 16:30:21.767 [main] INFO  com.mengchu.CompetitionCaseApplication - The following 1 profile is active: "dev"
+2024-02-28 16:30:22.475 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-02-28 16:30:22.485 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-02-28 16:30:22.486 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-02-28 16:30:22.486 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-28 16:30:22.523 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-02-28 16:30:22.524 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 726 ms
+2024-02-28 16:30:23.038 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-02-28 16:30:23.058 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2024-02-28 16:30:23.066 [main] INFO  com.mengchu.CompetitionCaseApplication - Started CompetitionCaseApplication in 1.669 seconds (process running for 2.138)
+2024-02-28 16:30:29.433 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-28 16:30:29.434 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-02-28 16:30:29.436 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-02-28 16:30:29.626 [http-nio-8080-exec-1] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709280246, username=zhangsan}
+2024-02-28 16:30:29.626 [http-nio-8080-exec-1] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-02-28 16:30:29.646 [http-nio-8080-exec-1] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-02-28 16:30:29.646 [http-nio-8080-exec-1] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-02-28 16:31:55.192 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2024-02-28 16:31:58.388 [main] INFO  com.mengchu.CompetitionCaseApplication - Starting CompetitionCaseApplication using Java 21.0.1 with PID 27560 (D:\java-basic\competition-case\target\classes started by 17317 in D:\java-basic\competition-case)
+2024-02-28 16:31:58.389 [main] INFO  com.mengchu.CompetitionCaseApplication - The following 1 profile is active: "dev"
+2024-02-28 16:31:59.065 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-02-28 16:31:59.073 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-02-28 16:31:59.074 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-02-28 16:31:59.074 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-28 16:31:59.113 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-02-28 16:31:59.113 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 694 ms
+2024-02-28 16:31:59.560 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-02-28 16:31:59.583 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2024-02-28 16:31:59.588 [main] INFO  com.mengchu.CompetitionCaseApplication - Started CompetitionCaseApplication in 1.57 seconds (process running for 2.123)
+2024-02-28 16:32:04.823 [http-nio-8080-exec-8] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-28 16:32:04.824 [http-nio-8080-exec-8] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-02-28 16:32:04.825 [http-nio-8080-exec-8] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-02-28 16:32:04.893 [http-nio-8080-exec-8] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709280246, username=zhangsan}
+2024-02-28 16:32:04.893 [http-nio-8080-exec-8] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-02-28 16:32:04.901 [http-nio-8080-exec-8] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-02-28 16:32:04.901 [http-nio-8080-exec-8] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-02-28 16:32:24.140 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2024-02-28 16:47:19.392 [main] INFO  com.mengchu.CompetitionCaseApplication - Starting CompetitionCaseApplication using Java 21.0.1 with PID 17436 (D:\java-basic\competition-case\target\classes started by 17317 in D:\java-basic\competition-case)
+2024-02-28 16:47:19.393 [main] INFO  com.mengchu.CompetitionCaseApplication - The following 1 profile is active: "dev"
+2024-02-28 16:47:20.228 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-02-28 16:47:20.236 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-02-28 16:47:20.237 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-02-28 16:47:20.237 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-28 16:47:20.280 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-02-28 16:47:20.280 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 856 ms
+2024-02-28 16:47:20.822 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-02-28 16:47:20.856 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2024-02-28 16:47:20.861 [main] INFO  com.mengchu.CompetitionCaseApplication - Started CompetitionCaseApplication in 1.85 seconds (process running for 2.271)
+2024-02-28 16:47:33.263 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-28 16:47:33.263 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-02-28 16:47:33.264 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-02-28 16:47:33.342 [http-nio-8080-exec-1] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709280246, username=zhangsan}
+2024-02-28 16:47:33.343 [http-nio-8080-exec-1] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-02-28 16:47:33.353 [http-nio-8080-exec-1] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-02-28 16:47:33.353 [http-nio-8080-exec-1] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-02-28 16:47:46.933 [http-nio-8080-exec-3] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709280246, username=zhangsan}
+2024-02-28 16:47:46.933 [http-nio-8080-exec-3] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-02-28 16:47:46.935 [http-nio-8080-exec-3] INFO  com.mengchu.controller.WorkController - /get被访问
+2024-02-28 16:48:06.367 [http-nio-8080-exec-5] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709280246, username=zhangsan}
+2024-02-28 16:48:06.367 [http-nio-8080-exec-5] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-02-28 16:48:06.368 [http-nio-8080-exec-5] INFO  com.mengchu.controller.WorkController - /get被访问
+2024-02-28 16:49:04.983 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2024-02-28 16:57:01.142 [main] INFO  com.mengchu.CompetitionCaseApplication - Starting CompetitionCaseApplication using Java 21.0.1 with PID 17388 (D:\java-basic\competition-case\target\classes started by 17317 in D:\java-basic\competition-case)
+2024-02-28 16:57:01.143 [main] INFO  com.mengchu.CompetitionCaseApplication - The following 1 profile is active: "dev"
+2024-02-28 16:57:01.848 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-02-28 16:57:01.857 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-02-28 16:57:01.858 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-02-28 16:57:01.858 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-28 16:57:01.895 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-02-28 16:57:01.895 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 720 ms
+2024-02-28 16:57:02.351 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-02-28 16:57:02.363 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2024-02-28 16:57:02.370 [main] INFO  com.mengchu.CompetitionCaseApplication - Started CompetitionCaseApplication in 1.586 seconds (process running for 2.003)
+2024-02-28 16:57:07.291 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-28 16:57:07.291 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-02-28 16:57:07.292 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-02-28 16:57:07.360 [http-nio-8080-exec-2] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709280246, username=zhangsan}
+2024-02-28 16:57:07.360 [http-nio-8080-exec-2] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-02-28 16:57:07.371 [http-nio-8080-exec-2] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-02-28 16:57:07.371 [http-nio-8080-exec-2] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-02-28 16:57:14.942 [http-nio-8080-exec-3] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709280246, username=zhangsan}
+2024-02-28 16:57:14.942 [http-nio-8080-exec-3] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-02-28 16:57:14.947 [http-nio-8080-exec-3] INFO  com.mengchu.controller.WorkController - /get被访问
+2024-02-28 16:57:33.851 [http-nio-8080-exec-4] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709280246, username=zhangsan}
+2024-02-28 16:57:33.851 [http-nio-8080-exec-4] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-02-28 16:57:33.851 [http-nio-8080-exec-4] INFO  com.mengchu.controller.WorkController - /get被访问
+2024-02-28 16:58:23.410 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2024-02-28 17:00:05.121 [main] INFO  com.mengchu.CompetitionCaseApplication - Starting CompetitionCaseApplication using Java 21.0.1 with PID 11636 (D:\java-basic\competition-case\target\classes started by 17317 in D:\java-basic\competition-case)
+2024-02-28 17:00:05.122 [main] INFO  com.mengchu.CompetitionCaseApplication - The following 1 profile is active: "dev"
+2024-02-28 17:00:05.806 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-02-28 17:00:05.814 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-02-28 17:00:05.815 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-02-28 17:00:05.815 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-28 17:00:05.850 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-02-28 17:00:05.850 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 698 ms
+2024-02-28 17:00:06.292 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-02-28 17:00:06.305 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2024-02-28 17:00:06.311 [main] INFO  com.mengchu.CompetitionCaseApplication - Started CompetitionCaseApplication in 1.551 seconds (process running for 1.968)
+2024-02-28 17:00:12.144 [http-nio-8080-exec-10] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-28 17:00:12.144 [http-nio-8080-exec-10] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-02-28 17:00:12.145 [http-nio-8080-exec-10] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-02-28 17:00:12.212 [http-nio-8080-exec-10] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709280246, username=zhangsan}
+2024-02-28 17:00:12.212 [http-nio-8080-exec-10] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-02-28 17:00:12.221 [http-nio-8080-exec-10] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-02-28 17:00:12.221 [http-nio-8080-exec-10] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-02-28 17:00:18.207 [http-nio-8080-exec-2] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709280246, username=zhangsan}
+2024-02-28 17:00:18.207 [http-nio-8080-exec-2] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-02-28 17:00:18.212 [http-nio-8080-exec-2] INFO  com.mengchu.controller.WorkController - /get被访问
+2024-02-28 17:00:32.571 [http-nio-8080-exec-4] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709280246, username=zhangsan}
+2024-02-28 17:00:32.572 [http-nio-8080-exec-4] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-02-28 17:00:32.572 [http-nio-8080-exec-4] INFO  com.mengchu.controller.WorkController - /get被访问
+2024-02-28 17:00:44.957 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2024-02-28 17:02:42.382 [main] INFO  com.mengchu.CompetitionCaseApplication - Starting CompetitionCaseApplication using Java 21.0.1 with PID 14148 (D:\java-basic\competition-case\target\classes started by 17317 in D:\java-basic\competition-case)
+2024-02-28 17:02:42.384 [main] INFO  com.mengchu.CompetitionCaseApplication - The following 1 profile is active: "dev"
+2024-02-28 17:02:43.085 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-02-28 17:02:43.094 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-02-28 17:02:43.096 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-02-28 17:02:43.096 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-28 17:02:43.133 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-02-28 17:02:43.134 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 720 ms
+2024-02-28 17:02:43.605 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-02-28 17:02:43.619 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2024-02-28 17:02:43.624 [main] INFO  com.mengchu.CompetitionCaseApplication - Started CompetitionCaseApplication in 1.603 seconds (process running for 2.015)
+2024-02-28 17:02:56.864 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-28 17:02:56.864 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-02-28 17:02:56.865 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-02-28 17:02:56.947 [http-nio-8080-exec-1] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709280246, username=zhangsan}
+2024-02-28 17:02:56.947 [http-nio-8080-exec-1] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-02-28 17:02:56.958 [http-nio-8080-exec-1] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-02-28 17:02:56.958 [http-nio-8080-exec-1] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-02-28 17:03:03.775 [http-nio-8080-exec-4] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709280246, username=zhangsan}
+2024-02-28 17:03:03.775 [http-nio-8080-exec-4] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-02-28 17:03:03.778 [http-nio-8080-exec-4] INFO  com.mengchu.controller.WorkController - /get被访问
+2024-02-28 17:03:28.919 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2024-02-28 21:44:18.143 [main] INFO  com.mengchu.CompetitionCaseApplication - Starting CompetitionCaseApplication using Java 21.0.1 with PID 24788 (D:\java-basic\competition-case\target\classes started by 17317 in D:\java-basic\competition-case)
+2024-02-28 21:44:18.144 [main] INFO  com.mengchu.CompetitionCaseApplication - The following 1 profile is active: "dev"
+2024-02-28 21:44:19.267 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-02-28 21:44:19.276 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-02-28 21:44:19.278 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-02-28 21:44:19.279 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-28 21:44:19.321 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-02-28 21:44:19.322 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1141 ms
+2024-02-28 21:44:19.946 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-02-28 21:44:19.963 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2024-02-28 21:44:19.968 [main] INFO  com.mengchu.CompetitionCaseApplication - Started CompetitionCaseApplication in 2.346 seconds (process running for 3.131)
+2024-02-28 21:44:51.716 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-28 21:44:51.717 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-02-28 21:44:51.719 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2024-02-28 21:44:51.994 [http-nio-8080-exec-2] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709280246, username=zhangsan}
+2024-02-28 21:44:51.994 [http-nio-8080-exec-2] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-02-28 21:44:52.030 [http-nio-8080-exec-2] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-02-28 21:44:52.031 [http-nio-8080-exec-2] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-02-28 21:45:05.887 [http-nio-8080-exec-3] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709280246, username=zhangsan}
+2024-02-28 21:45:05.888 [http-nio-8080-exec-3] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-02-28 21:45:05.892 [http-nio-8080-exec-3] INFO  com.mengchu.controller.WorkController - /get被访问
+2024-02-28 21:45:15.458 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2024-02-28 21:45:41.882 [main] INFO  com.mengchu.CompetitionCaseApplication - Starting CompetitionCaseApplication using Java 21.0.1 with PID 11544 (D:\java-basic\competition-case\target\classes started by 17317 in D:\java-basic\competition-case)
+2024-02-28 21:45:41.883 [main] INFO  com.mengchu.CompetitionCaseApplication - The following 1 profile is active: "dev"
+2024-02-28 21:45:42.650 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-02-28 21:45:42.659 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-02-28 21:45:42.660 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-02-28 21:45:42.660 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-28 21:45:42.697 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-02-28 21:45:42.697 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 781 ms
+2024-02-28 21:45:43.144 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-02-28 21:45:43.167 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2024-02-28 21:45:43.174 [main] INFO  com.mengchu.CompetitionCaseApplication - Started CompetitionCaseApplication in 1.659 seconds (process running for 2.115)
+2024-02-28 21:45:47.907 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-28 21:45:47.908 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-02-28 21:45:47.909 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-02-28 21:45:47.980 [http-nio-8080-exec-2] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709280246, username=zhangsan}
+2024-02-28 21:45:47.981 [http-nio-8080-exec-2] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-02-28 21:45:47.990 [http-nio-8080-exec-2] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-02-28 21:45:47.990 [http-nio-8080-exec-2] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-02-28 21:45:53.966 [http-nio-8080-exec-4] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709280246, username=zhangsan}
+2024-02-28 21:45:53.967 [http-nio-8080-exec-4] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-02-28 21:45:53.972 [http-nio-8080-exec-4] INFO  com.mengchu.controller.WorkController - /get被访问
+2024-02-28 21:56:46.293 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2024-02-28 22:09:07.127 [main] INFO  com.mengchu.CompetitionCaseApplication - Starting CompetitionCaseApplication using Java 21.0.1 with PID 6692 (D:\java-basic\competition-case\target\classes started by 17317 in D:\java-basic\competition-case)
+2024-02-28 22:09:07.128 [main] INFO  com.mengchu.CompetitionCaseApplication - The following 1 profile is active: "dev"
+2024-02-28 22:09:07.872 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-02-28 22:09:07.881 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-02-28 22:09:07.882 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-02-28 22:09:07.883 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-28 22:09:07.922 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-02-28 22:09:07.922 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 764 ms
+2024-02-28 22:09:08.465 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-02-28 22:09:08.492 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2024-02-28 22:09:08.499 [main] INFO  com.mengchu.CompetitionCaseApplication - Started CompetitionCaseApplication in 1.732 seconds (process running for 2.193)
+2024-02-28 22:09:14.451 [http-nio-8080-exec-3] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-28 22:09:14.452 [http-nio-8080-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-02-28 22:09:14.453 [http-nio-8080-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-02-28 22:09:14.537 [http-nio-8080-exec-3] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709280246, username=zhangsan}
+2024-02-28 22:09:14.538 [http-nio-8080-exec-3] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-02-28 22:09:14.546 [http-nio-8080-exec-3] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-02-28 22:09:14.546 [http-nio-8080-exec-3] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-02-28 22:09:21.302 [http-nio-8080-exec-2] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709280246, username=zhangsan}
+2024-02-28 22:09:21.302 [http-nio-8080-exec-2] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-02-28 22:09:21.306 [http-nio-8080-exec-2] INFO  com.mengchu.controller.WorkController - /get被访问
+2024-02-28 22:09:21.306 [http-nio-8080-exec-2] INFO  com.mengchu.service.impl.WorkServiceImpl - address:404
+2024-02-28 22:20:34.639 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2024-02-28 22:20:38.499 [main] INFO  com.mengchu.CompetitionCaseApplication - Starting CompetitionCaseApplication using Java 21.0.1 with PID 24788 (D:\java-basic\competition-case\target\classes started by 17317 in D:\java-basic\competition-case)
+2024-02-28 22:20:38.501 [main] INFO  com.mengchu.CompetitionCaseApplication - The following 1 profile is active: "dev"
+2024-02-28 22:20:39.217 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-02-28 22:20:39.226 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-02-28 22:20:39.227 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-02-28 22:20:39.227 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-28 22:20:39.261 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-02-28 22:20:39.262 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 732 ms
+2024-02-28 22:20:39.722 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-02-28 22:20:39.735 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2024-02-28 22:20:39.742 [main] INFO  com.mengchu.CompetitionCaseApplication - Started CompetitionCaseApplication in 1.604 seconds (process running for 2.006)
+2024-02-28 22:20:45.487 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-28 22:20:45.487 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-02-28 22:20:45.488 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-02-28 22:20:45.556 [http-nio-8080-exec-1] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709280246, username=zhangsan}
+2024-02-28 22:20:45.556 [http-nio-8080-exec-1] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-02-28 22:20:45.564 [http-nio-8080-exec-1] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-02-28 22:20:45.564 [http-nio-8080-exec-1] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-02-28 22:20:51.363 [http-nio-8080-exec-3] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709280246, username=zhangsan}
+2024-02-28 22:20:51.364 [http-nio-8080-exec-3] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-02-28 22:20:51.368 [http-nio-8080-exec-3] INFO  com.mengchu.controller.WorkController - /get被访问
+2024-02-28 22:20:53.712 [http-nio-8080-exec-4] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709280246, username=zhangsan}
+2024-02-28 22:20:53.712 [http-nio-8080-exec-4] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-02-28 22:20:53.712 [http-nio-8080-exec-4] INFO  com.mengchu.controller.WorkController - /get被访问
+2024-02-28 22:21:07.448 [http-nio-8080-exec-5] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709280246, username=zhangsan}
+2024-02-28 22:21:07.448 [http-nio-8080-exec-5] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-02-28 22:21:07.448 [http-nio-8080-exec-5] INFO  com.mengchu.controller.WorkController - /get被访问
+2024-02-28 22:21:08.166 [http-nio-8080-exec-6] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709280246, username=zhangsan}
+2024-02-28 22:21:08.167 [http-nio-8080-exec-6] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-02-28 22:21:08.167 [http-nio-8080-exec-6] INFO  com.mengchu.controller.WorkController - /get被访问
+2024-02-28 22:21:08.822 [http-nio-8080-exec-7] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709280246, username=zhangsan}
+2024-02-28 22:21:08.822 [http-nio-8080-exec-7] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-02-28 22:21:08.823 [http-nio-8080-exec-7] INFO  com.mengchu.controller.WorkController - /get被访问
+2024-02-28 22:21:09.581 [http-nio-8080-exec-8] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709280246, username=zhangsan}
+2024-02-28 22:21:09.581 [http-nio-8080-exec-8] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-02-28 22:21:09.581 [http-nio-8080-exec-8] INFO  com.mengchu.controller.WorkController - /get被访问
+2024-02-28 22:21:10.204 [http-nio-8080-exec-9] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709280246, username=zhangsan}
+2024-02-28 22:21:10.204 [http-nio-8080-exec-9] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-02-28 22:21:10.204 [http-nio-8080-exec-9] INFO  com.mengchu.controller.WorkController - /get被访问
+2024-02-28 22:21:10.832 [http-nio-8080-exec-10] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709280246, username=zhangsan}
+2024-02-28 22:21:10.833 [http-nio-8080-exec-10] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-02-28 22:21:10.833 [http-nio-8080-exec-10] INFO  com.mengchu.controller.WorkController - /get被访问
+2024-02-28 22:21:16.709 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2024-02-28 22:29:05.947 [main] INFO  com.mengchu.CompetitionCaseApplication - Starting CompetitionCaseApplication using Java 21.0.1 with PID 1448 (D:\java-basic\competition-case\target\classes started by 17317 in D:\java-basic\competition-case)
+2024-02-28 22:29:05.948 [main] INFO  com.mengchu.CompetitionCaseApplication - The following 1 profile is active: "dev"
+2024-02-28 22:29:06.660 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-02-28 22:29:06.667 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-02-28 22:29:06.668 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-02-28 22:29:06.669 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-28 22:29:06.703 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-02-28 22:29:06.704 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 723 ms
+2024-02-28 22:29:07.163 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-02-28 22:29:07.175 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2024-02-28 22:29:07.180 [main] INFO  com.mengchu.CompetitionCaseApplication - Started CompetitionCaseApplication in 1.656 seconds (process running for 2.162)
+2024-02-28 22:29:34.494 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-28 22:29:34.496 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-02-28 22:29:34.497 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-02-28 22:29:34.566 [http-nio-8080-exec-1] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709280246, username=zhangsan}
+2024-02-28 22:29:34.566 [http-nio-8080-exec-1] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-02-28 22:29:34.575 [http-nio-8080-exec-1] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-02-28 22:29:34.575 [http-nio-8080-exec-1] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-02-28 22:34:26.753 [http-nio-8080-exec-5] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709280246, username=zhangsan}
+2024-02-28 22:34:26.753 [http-nio-8080-exec-5] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-02-28 22:34:26.754 [http-nio-8080-exec-5] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-02-28 22:34:26.754 [http-nio-8080-exec-5] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-02-28 22:34:33.115 [http-nio-8080-exec-6] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709280246, username=zhangsan}
+2024-02-28 22:34:33.116 [http-nio-8080-exec-6] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-02-28 22:34:33.122 [http-nio-8080-exec-6] INFO  com.mengchu.controller.WorkController - /get被访问
+2024-02-28 22:42:25.825 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2024-02-28 22:42:29.138 [main] INFO  com.mengchu.CompetitionCaseApplication - Starting CompetitionCaseApplication using Java 21.0.1 with PID 7296 (D:\java-basic\competition-case\target\classes started by 17317 in D:\java-basic\competition-case)
+2024-02-28 22:42:29.140 [main] INFO  com.mengchu.CompetitionCaseApplication - The following 1 profile is active: "dev"
+2024-02-28 22:42:29.843 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-02-28 22:42:29.851 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-02-28 22:42:29.852 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-02-28 22:42:29.852 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-28 22:42:29.886 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-02-28 22:42:29.886 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 714 ms
+2024-02-28 22:42:30.411 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-02-28 22:42:30.425 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2024-02-28 22:42:30.430 [main] INFO  com.mengchu.CompetitionCaseApplication - Started CompetitionCaseApplication in 1.679 seconds (process running for 2.113)
+2024-02-28 22:42:34.956 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-28 22:42:34.956 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-02-28 22:42:34.957 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-02-28 22:42:35.050 [http-nio-8080-exec-2] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709280246, username=zhangsan}
+2024-02-28 22:42:35.050 [http-nio-8080-exec-2] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-02-28 22:42:35.059 [http-nio-8080-exec-2] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-02-28 22:42:35.059 [http-nio-8080-exec-2] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-02-28 22:42:40.101 [http-nio-8080-exec-7] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709280246, username=zhangsan}
+2024-02-28 22:42:40.101 [http-nio-8080-exec-7] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-02-28 22:42:40.107 [http-nio-8080-exec-7] INFO  com.mengchu.controller.WorkController - /get被访问
+2024-02-28 22:43:00.620 [http-nio-8080-exec-3] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709280246, username=zhangsan}
+2024-02-28 22:43:00.620 [http-nio-8080-exec-3] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-02-28 22:43:00.621 [http-nio-8080-exec-3] INFO  com.mengchu.controller.WorkController - /get被访问
+2024-02-28 22:43:00.621 [http-nio-8080-exec-3] INFO  com.mengchu.service.impl.WorkServiceImpl - address:"D:\\大学\\AM_Server(1)\\AM_Server\\model\\test"
+2024-02-28 22:43:31.293 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2024-02-28 23:56:18.291 [main] INFO  com.mengchu.CompetitionCaseApplication - Starting CompetitionCaseApplication using Java 21.0.1 with PID 15096 (D:\java-basic\competition-case\target\classes started by 17317 in D:\java-basic\competition-case)
+2024-02-28 23:56:18.292 [main] INFO  com.mengchu.CompetitionCaseApplication - The following 1 profile is active: "dev"
+2024-02-28 23:56:19.005 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-02-28 23:56:19.015 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-02-28 23:56:19.016 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-02-28 23:56:19.017 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-28 23:56:19.050 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-02-28 23:56:19.051 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 729 ms
+2024-02-28 23:56:19.500 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-02-28 23:56:19.522 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2024-02-28 23:56:19.528 [main] INFO  com.mengchu.CompetitionCaseApplication - Started CompetitionCaseApplication in 1.601 seconds (process running for 2.118)
+2024-02-28 23:56:31.990 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-28 23:56:31.991 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-02-28 23:56:31.991 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-02-28 23:56:32.057 [http-nio-8080-exec-2] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709280246, username=zhangsan}
+2024-02-28 23:56:32.057 [http-nio-8080-exec-2] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-02-28 23:56:32.067 [http-nio-8080-exec-2] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-02-28 23:56:32.067 [http-nio-8080-exec-2] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-02-28 23:56:37.505 [http-nio-8080-exec-4] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709280246, username=zhangsan}
+2024-02-28 23:56:37.505 [http-nio-8080-exec-4] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-02-28 23:56:37.510 [http-nio-8080-exec-4] INFO  com.mengchu.controller.WorkController - /get被访问
+2024-02-28 23:56:50.365 [http-nio-8080-exec-5] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709280246, username=zhangsan}
+2024-02-28 23:56:50.365 [http-nio-8080-exec-5] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-02-28 23:56:50.365 [http-nio-8080-exec-5] INFO  com.mengchu.controller.WorkController - /get被访问
+2024-02-28 23:56:50.366 [http-nio-8080-exec-5] INFO  com.mengchu.service.impl.WorkServiceImpl - address:"D:\\大学\\AM_Server(1)\\AM_Server\\model\\test"
+2024-02-28 23:57:56.686 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2024-02-28 23:57:59.942 [main] INFO  com.mengchu.CompetitionCaseApplication - Starting CompetitionCaseApplication using Java 21.0.1 with PID 18448 (D:\java-basic\competition-case\target\classes started by 17317 in D:\java-basic\competition-case)
+2024-02-28 23:57:59.943 [main] INFO  com.mengchu.CompetitionCaseApplication - The following 1 profile is active: "dev"
+2024-02-28 23:58:00.656 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-02-28 23:58:00.662 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-02-28 23:58:00.664 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-02-28 23:58:00.664 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-28 23:58:00.699 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-02-28 23:58:00.699 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 726 ms
+2024-02-28 23:58:01.148 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-02-28 23:58:01.162 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2024-02-28 23:58:01.167 [main] INFO  com.mengchu.CompetitionCaseApplication - Started CompetitionCaseApplication in 1.612 seconds (process running for 2.044)
+2024-02-28 23:58:05.201 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-28 23:58:05.202 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-02-28 23:58:05.203 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-02-28 23:58:05.273 [http-nio-8080-exec-2] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709280246, username=zhangsan}
+2024-02-28 23:58:05.273 [http-nio-8080-exec-2] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-02-28 23:58:05.281 [http-nio-8080-exec-2] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-02-28 23:58:05.282 [http-nio-8080-exec-2] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-02-28 23:58:10.828 [http-nio-8080-exec-3] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709280246, username=zhangsan}
+2024-02-28 23:58:10.828 [http-nio-8080-exec-3] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-02-28 23:58:10.833 [http-nio-8080-exec-3] INFO  com.mengchu.controller.WorkController - /get被访问
+2024-02-28 23:58:25.579 [http-nio-8080-exec-10] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709280246, username=zhangsan}
+2024-02-28 23:58:25.579 [http-nio-8080-exec-10] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-02-28 23:58:25.579 [http-nio-8080-exec-10] INFO  com.mengchu.controller.WorkController - /get被访问
+2024-02-28 23:58:25.579 [http-nio-8080-exec-10] INFO  com.mengchu.service.impl.WorkServiceImpl - address:"D:\\大学\\AM_Server(1)\\AM_Server\\model\\test
+2024-02-28 23:58:42.163 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2024-02-28 23:58:45.339 [main] INFO  com.mengchu.CompetitionCaseApplication - Starting CompetitionCaseApplication using Java 21.0.1 with PID 5620 (D:\java-basic\competition-case\target\classes started by 17317 in D:\java-basic\competition-case)
+2024-02-28 23:58:45.341 [main] INFO  com.mengchu.CompetitionCaseApplication - The following 1 profile is active: "dev"
+2024-02-28 23:58:46.040 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-02-28 23:58:46.050 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-02-28 23:58:46.051 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-02-28 23:58:46.051 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-28 23:58:46.084 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-02-28 23:58:46.084 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 716 ms
+2024-02-28 23:58:46.555 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-02-28 23:58:46.567 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2024-02-28 23:58:46.573 [main] INFO  com.mengchu.CompetitionCaseApplication - Started CompetitionCaseApplication in 1.599 seconds (process running for 2.028)
+2024-02-28 23:58:57.860 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-28 23:58:57.861 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-02-28 23:58:57.862 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-02-28 23:58:57.929 [http-nio-8080-exec-1] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709280246, username=zhangsan}
+2024-02-28 23:58:57.929 [http-nio-8080-exec-1] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-02-28 23:58:57.938 [http-nio-8080-exec-1] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-02-28 23:58:57.938 [http-nio-8080-exec-1] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-02-28 23:59:04.574 [http-nio-8080-exec-2] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709280246, username=zhangsan}
+2024-02-28 23:59:04.575 [http-nio-8080-exec-2] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-02-28 23:59:04.581 [http-nio-8080-exec-2] INFO  com.mengchu.controller.WorkController - /get被访问
+2024-02-28 23:59:13.264 [http-nio-8080-exec-4] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709280246, username=zhangsan}
+2024-02-28 23:59:13.265 [http-nio-8080-exec-4] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-02-28 23:59:13.265 [http-nio-8080-exec-4] INFO  com.mengchu.controller.WorkController - /get被访问
+2024-02-28 23:59:13.265 [http-nio-8080-exec-4] INFO  com.mengchu.service.impl.WorkServiceImpl - address:D:\\大学\\AM_Server(1)\\AM_Server\\model\\test

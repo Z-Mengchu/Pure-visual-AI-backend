@@ -1,0 +1,72 @@
+2024-02-25 13:23:25.189 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager - Creating new transaction with name [com.mengchu.service.impl.UserServiceImpl.updateImage]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,-java.lang.Exception
+2024-02-25 13:23:25.389 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager - Acquired Connection [com.mysql.cj.jdbc.ConnectionImpl@63f5c3c7] for JDBC transaction
+2024-02-25 13:23:25.394 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager - Switching JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@63f5c3c7] to manual commit
+2024-02-25 13:23:25.741 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager - Initiating transaction rollback
+2024-02-25 13:23:25.743 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager - Rolling back JDBC transaction on Connection [com.mysql.cj.jdbc.ConnectionImpl@63f5c3c7]
+2024-02-25 13:23:25.744 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager - Releasing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@63f5c3c7] after transaction
+2024-02-25 13:26:55.415 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager - Creating new transaction with name [com.mengchu.service.impl.UserServiceImpl.updateImage]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,-java.lang.Exception
+2024-02-25 13:26:55.542 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager - Acquired Connection [com.mysql.cj.jdbc.ConnectionImpl@601d04ca] for JDBC transaction
+2024-02-25 13:26:55.544 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager - Switching JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@601d04ca] to manual commit
+2024-02-25 13:26:55.722 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager - Initiating transaction rollback
+2024-02-25 13:26:55.723 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager - Rolling back JDBC transaction on Connection [com.mysql.cj.jdbc.ConnectionImpl@601d04ca]
+2024-02-25 13:26:55.725 [http-nio-8080-exec-1] DEBUG o.s.jdbc.support.JdbcTransactionManager - Releasing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@601d04ca] after transaction
+2024-02-25 13:46:42.940 [http-nio-8080-exec-5] DEBUG o.s.jdbc.support.JdbcTransactionManager - Creating new transaction with name [com.mengchu.service.impl.UserServiceImpl.updateImage]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,-java.lang.Exception
+2024-02-25 13:46:43.121 [http-nio-8080-exec-5] DEBUG o.s.jdbc.support.JdbcTransactionManager - Acquired Connection [com.mysql.cj.jdbc.ConnectionImpl@16ed28a3] for JDBC transaction
+2024-02-25 13:46:43.125 [http-nio-8080-exec-5] DEBUG o.s.jdbc.support.JdbcTransactionManager - Switching JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@16ed28a3] to manual commit
+2024-02-25 13:46:44.464 [http-nio-8080-exec-5] DEBUG o.s.jdbc.support.JdbcTransactionManager - Initiating transaction commit
+2024-02-25 13:46:44.465 [http-nio-8080-exec-5] DEBUG o.s.jdbc.support.JdbcTransactionManager - Committing JDBC transaction on Connection [com.mysql.cj.jdbc.ConnectionImpl@16ed28a3]
+2024-02-25 13:46:44.475 [http-nio-8080-exec-5] DEBUG o.s.jdbc.support.JdbcTransactionManager - Releasing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@16ed28a3] after transaction
+2024-02-25 13:47:10.672 [http-nio-8080-exec-6] DEBUG o.s.jdbc.support.JdbcTransactionManager - Creating new transaction with name [com.mengchu.service.impl.UserServiceImpl.updateImage]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,-java.lang.Exception
+2024-02-25 13:47:10.795 [http-nio-8080-exec-6] DEBUG o.s.jdbc.support.JdbcTransactionManager - Acquired Connection [com.mysql.cj.jdbc.ConnectionImpl@7e09fb40] for JDBC transaction
+2024-02-25 13:47:10.797 [http-nio-8080-exec-6] DEBUG o.s.jdbc.support.JdbcTransactionManager - Switching JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@7e09fb40] to manual commit
+2024-02-25 13:47:11.577 [http-nio-8080-exec-6] DEBUG o.s.jdbc.support.JdbcTransactionManager - Initiating transaction commit
+2024-02-25 13:47:11.578 [http-nio-8080-exec-6] DEBUG o.s.jdbc.support.JdbcTransactionManager - Committing JDBC transaction on Connection [com.mysql.cj.jdbc.ConnectionImpl@7e09fb40]
+2024-02-25 13:47:11.585 [http-nio-8080-exec-6] DEBUG o.s.jdbc.support.JdbcTransactionManager - Releasing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@7e09fb40] after transaction
+2024-02-25 13:47:51.758 [http-nio-8080-exec-9] DEBUG o.s.jdbc.support.JdbcTransactionManager - Creating new transaction with name [com.mengchu.service.impl.UserServiceImpl.updateImage]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,-java.lang.Exception
+2024-02-25 13:47:51.758 [http-nio-8080-exec-9] DEBUG o.s.jdbc.support.JdbcTransactionManager - Acquired Connection [com.mysql.cj.jdbc.ConnectionImpl@7e09fb40] for JDBC transaction
+2024-02-25 13:47:51.758 [http-nio-8080-exec-9] DEBUG o.s.jdbc.support.JdbcTransactionManager - Switching JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@7e09fb40] to manual commit
+2024-02-25 13:47:51.775 [http-nio-8080-exec-9] DEBUG o.s.jdbc.support.JdbcTransactionManager - Initiating transaction commit
+2024-02-25 13:47:51.775 [http-nio-8080-exec-9] DEBUG o.s.jdbc.support.JdbcTransactionManager - Committing JDBC transaction on Connection [com.mysql.cj.jdbc.ConnectionImpl@7e09fb40]
+2024-02-25 13:47:51.780 [http-nio-8080-exec-9] DEBUG o.s.jdbc.support.JdbcTransactionManager - Releasing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@7e09fb40] after transaction
+2024-02-25 13:48:16.364 [http-nio-8080-exec-3] DEBUG o.s.jdbc.support.JdbcTransactionManager - Creating new transaction with name [com.mengchu.service.impl.UserServiceImpl.updateImage]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,-java.lang.Exception
+2024-02-25 13:48:16.364 [http-nio-8080-exec-3] DEBUG o.s.jdbc.support.JdbcTransactionManager - Acquired Connection [com.mysql.cj.jdbc.ConnectionImpl@7e09fb40] for JDBC transaction
+2024-02-25 13:48:16.365 [http-nio-8080-exec-3] DEBUG o.s.jdbc.support.JdbcTransactionManager - Switching JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@7e09fb40] to manual commit
+2024-02-25 13:48:16.380 [http-nio-8080-exec-3] DEBUG o.s.jdbc.support.JdbcTransactionManager - Initiating transaction commit
+2024-02-25 13:48:16.380 [http-nio-8080-exec-3] DEBUG o.s.jdbc.support.JdbcTransactionManager - Committing JDBC transaction on Connection [com.mysql.cj.jdbc.ConnectionImpl@7e09fb40]
+2024-02-25 13:48:16.380 [http-nio-8080-exec-3] DEBUG o.s.jdbc.support.JdbcTransactionManager - Releasing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@7e09fb40] after transaction
+2024-02-25 13:48:17.208 [http-nio-8080-exec-4] DEBUG o.s.jdbc.support.JdbcTransactionManager - Creating new transaction with name [com.mengchu.service.impl.UserServiceImpl.updateImage]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,-java.lang.Exception
+2024-02-25 13:48:17.208 [http-nio-8080-exec-4] DEBUG o.s.jdbc.support.JdbcTransactionManager - Acquired Connection [com.mysql.cj.jdbc.ConnectionImpl@7e09fb40] for JDBC transaction
+2024-02-25 13:48:17.208 [http-nio-8080-exec-4] DEBUG o.s.jdbc.support.JdbcTransactionManager - Switching JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@7e09fb40] to manual commit
+2024-02-25 13:48:17.221 [http-nio-8080-exec-4] DEBUG o.s.jdbc.support.JdbcTransactionManager - Initiating transaction commit
+2024-02-25 13:48:17.222 [http-nio-8080-exec-4] DEBUG o.s.jdbc.support.JdbcTransactionManager - Committing JDBC transaction on Connection [com.mysql.cj.jdbc.ConnectionImpl@7e09fb40]
+2024-02-25 13:48:17.222 [http-nio-8080-exec-4] DEBUG o.s.jdbc.support.JdbcTransactionManager - Releasing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@7e09fb40] after transaction
+2024-02-25 13:48:22.986 [http-nio-8080-exec-7] DEBUG o.s.jdbc.support.JdbcTransactionManager - Creating new transaction with name [com.mengchu.service.impl.UserServiceImpl.updateImage]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,-java.lang.Exception
+2024-02-25 13:48:22.986 [http-nio-8080-exec-7] DEBUG o.s.jdbc.support.JdbcTransactionManager - Acquired Connection [com.mysql.cj.jdbc.ConnectionImpl@7e09fb40] for JDBC transaction
+2024-02-25 13:48:22.986 [http-nio-8080-exec-7] DEBUG o.s.jdbc.support.JdbcTransactionManager - Switching JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@7e09fb40] to manual commit
+2024-02-25 13:48:22.997 [http-nio-8080-exec-7] DEBUG o.s.jdbc.support.JdbcTransactionManager - Initiating transaction commit
+2024-02-25 13:48:22.997 [http-nio-8080-exec-7] DEBUG o.s.jdbc.support.JdbcTransactionManager - Committing JDBC transaction on Connection [com.mysql.cj.jdbc.ConnectionImpl@7e09fb40]
+2024-02-25 13:48:22.998 [http-nio-8080-exec-7] DEBUG o.s.jdbc.support.JdbcTransactionManager - Releasing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@7e09fb40] after transaction
+2024-02-25 13:48:31.893 [http-nio-8080-exec-2] DEBUG o.s.jdbc.support.JdbcTransactionManager - Creating new transaction with name [com.mengchu.service.impl.UserServiceImpl.updateImage]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,-java.lang.Exception
+2024-02-25 13:48:31.893 [http-nio-8080-exec-2] DEBUG o.s.jdbc.support.JdbcTransactionManager - Acquired Connection [com.mysql.cj.jdbc.ConnectionImpl@7e09fb40] for JDBC transaction
+2024-02-25 13:48:31.893 [http-nio-8080-exec-2] DEBUG o.s.jdbc.support.JdbcTransactionManager - Switching JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@7e09fb40] to manual commit
+2024-02-25 13:48:31.902 [http-nio-8080-exec-2] DEBUG o.s.jdbc.support.JdbcTransactionManager - Initiating transaction commit
+2024-02-25 13:48:31.902 [http-nio-8080-exec-2] DEBUG o.s.jdbc.support.JdbcTransactionManager - Committing JDBC transaction on Connection [com.mysql.cj.jdbc.ConnectionImpl@7e09fb40]
+2024-02-25 13:48:31.903 [http-nio-8080-exec-2] DEBUG o.s.jdbc.support.JdbcTransactionManager - Releasing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@7e09fb40] after transaction
+2024-02-25 13:48:57.862 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager - Creating new transaction with name [com.mengchu.service.impl.UserServiceImpl.updateImage]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,-java.lang.Exception
+2024-02-25 13:48:57.862 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager - Acquired Connection [com.mysql.cj.jdbc.ConnectionImpl@7e09fb40] for JDBC transaction
+2024-02-25 13:48:57.862 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager - Switching JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@7e09fb40] to manual commit
+2024-02-25 13:48:57.874 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager - Initiating transaction commit
+2024-02-25 13:48:57.874 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager - Committing JDBC transaction on Connection [com.mysql.cj.jdbc.ConnectionImpl@7e09fb40]
+2024-02-25 13:48:57.875 [http-nio-8080-exec-8] DEBUG o.s.jdbc.support.JdbcTransactionManager - Releasing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@7e09fb40] after transaction
+2024-02-25 13:49:09.027 [http-nio-8080-exec-5] DEBUG o.s.jdbc.support.JdbcTransactionManager - Creating new transaction with name [com.mengchu.service.impl.UserServiceImpl.updateImage]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,-java.lang.Exception
+2024-02-25 13:49:09.027 [http-nio-8080-exec-5] DEBUG o.s.jdbc.support.JdbcTransactionManager - Acquired Connection [com.mysql.cj.jdbc.ConnectionImpl@7e09fb40] for JDBC transaction
+2024-02-25 13:49:09.027 [http-nio-8080-exec-5] DEBUG o.s.jdbc.support.JdbcTransactionManager - Switching JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@7e09fb40] to manual commit
+2024-02-25 13:49:09.040 [http-nio-8080-exec-5] DEBUG o.s.jdbc.support.JdbcTransactionManager - Initiating transaction commit
+2024-02-25 13:49:09.040 [http-nio-8080-exec-5] DEBUG o.s.jdbc.support.JdbcTransactionManager - Committing JDBC transaction on Connection [com.mysql.cj.jdbc.ConnectionImpl@7e09fb40]
+2024-02-25 13:49:09.041 [http-nio-8080-exec-5] DEBUG o.s.jdbc.support.JdbcTransactionManager - Releasing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@7e09fb40] after transaction
+2024-02-25 13:56:31.823 [http-nio-8080-exec-2] DEBUG o.s.jdbc.support.JdbcTransactionManager - Creating new transaction with name [com.mengchu.service.impl.UserServiceImpl.updateImage]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,-java.lang.Exception
+2024-02-25 13:56:31.950 [http-nio-8080-exec-2] DEBUG o.s.jdbc.support.JdbcTransactionManager - Acquired Connection [com.mysql.cj.jdbc.ConnectionImpl@7b861e3] for JDBC transaction
+2024-02-25 13:56:31.953 [http-nio-8080-exec-2] DEBUG o.s.jdbc.support.JdbcTransactionManager - Switching JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@7b861e3] to manual commit
+2024-02-25 13:56:32.817 [http-nio-8080-exec-2] DEBUG o.s.jdbc.support.JdbcTransactionManager - Initiating transaction commit
+2024-02-25 13:56:32.817 [http-nio-8080-exec-2] DEBUG o.s.jdbc.support.JdbcTransactionManager - Committing JDBC transaction on Connection [com.mysql.cj.jdbc.ConnectionImpl@7b861e3]
+2024-02-25 13:56:32.824 [http-nio-8080-exec-2] DEBUG o.s.jdbc.support.JdbcTransactionManager - Releasing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@7b861e3] after transaction

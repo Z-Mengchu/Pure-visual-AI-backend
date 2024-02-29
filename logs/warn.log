@@ -1,0 +1,7 @@
+2024-02-25 13:47:51.765 [http-nio-8080-exec-9] WARN  com.aliyun.oss - [Unknown]Unable to execute HTTP request: Connection pool shut down
+2024-02-25 13:48:16.376 [http-nio-8080-exec-3] WARN  com.aliyun.oss - [Unknown]Unable to execute HTTP request: Connection pool shut down
+2024-02-25 13:48:17.217 [http-nio-8080-exec-4] WARN  com.aliyun.oss - [Unknown]Unable to execute HTTP request: Connection pool shut down
+2024-02-25 13:48:22.993 [http-nio-8080-exec-7] WARN  com.aliyun.oss - [Unknown]Unable to execute HTTP request: Connection pool shut down
+2024-02-25 13:48:31.900 [http-nio-8080-exec-2] WARN  com.aliyun.oss - [Unknown]Unable to execute HTTP request: Connection pool shut down
+2024-02-25 13:48:57.870 [http-nio-8080-exec-8] WARN  com.aliyun.oss - [Unknown]Unable to execute HTTP request: Connection pool shut down
+2024-02-25 13:49:09.036 [http-nio-8080-exec-5] WARN  com.aliyun.oss - [Unknown]Unable to execute HTTP request: Connection pool shut down

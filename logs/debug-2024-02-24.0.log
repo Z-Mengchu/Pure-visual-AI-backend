@@ -1,0 +1,13 @@
+2024-02-24 20:05:15.336 [http-nio-8080-exec-7] DEBUG o.s.jdbc.support.JdbcTransactionManager - Creating new transaction with name [com.mengchu.service.impl.UserServiceImpl.login]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,-java.lang.Exception
+2024-02-24 20:06:37.279 [http-nio-8080-exec-2] DEBUG o.s.jdbc.support.JdbcTransactionManager - Creating new transaction with name [com.mengchu.service.impl.UserServiceImpl.login]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,-java.lang.Exception
+2024-02-24 20:06:37.405 [http-nio-8080-exec-2] DEBUG o.s.jdbc.support.JdbcTransactionManager - Acquired Connection [com.mysql.cj.jdbc.ConnectionImpl@121f4ac5] for JDBC transaction
+2024-02-24 20:06:37.408 [http-nio-8080-exec-2] DEBUG o.s.jdbc.support.JdbcTransactionManager - Switching JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@121f4ac5] to manual commit
+2024-02-24 20:06:37.469 [http-nio-8080-exec-2] DEBUG o.s.jdbc.support.JdbcTransactionManager - Initiating transaction commit
+2024-02-24 20:06:37.469 [http-nio-8080-exec-2] DEBUG o.s.jdbc.support.JdbcTransactionManager - Committing JDBC transaction on Connection [com.mysql.cj.jdbc.ConnectionImpl@121f4ac5]
+2024-02-24 20:06:37.471 [http-nio-8080-exec-2] DEBUG o.s.jdbc.support.JdbcTransactionManager - Releasing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@121f4ac5] after transaction
+2024-02-24 20:09:02.849 [http-nio-8080-exec-6] DEBUG o.s.jdbc.support.JdbcTransactionManager - Creating new transaction with name [com.mengchu.service.impl.UserServiceImpl.login]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,-java.lang.Exception
+2024-02-24 20:09:02.869 [http-nio-8080-exec-6] DEBUG o.s.jdbc.support.JdbcTransactionManager - Acquired Connection [com.mysql.cj.jdbc.ConnectionImpl@121f4ac5] for JDBC transaction
+2024-02-24 20:09:02.869 [http-nio-8080-exec-6] DEBUG o.s.jdbc.support.JdbcTransactionManager - Switching JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@121f4ac5] to manual commit
+2024-02-24 20:09:02.874 [http-nio-8080-exec-6] DEBUG o.s.jdbc.support.JdbcTransactionManager - Initiating transaction commit
+2024-02-24 20:09:02.874 [http-nio-8080-exec-6] DEBUG o.s.jdbc.support.JdbcTransactionManager - Committing JDBC transaction on Connection [com.mysql.cj.jdbc.ConnectionImpl@121f4ac5]
+2024-02-24 20:09:02.876 [http-nio-8080-exec-6] DEBUG o.s.jdbc.support.JdbcTransactionManager - Releasing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@121f4ac5] after transaction

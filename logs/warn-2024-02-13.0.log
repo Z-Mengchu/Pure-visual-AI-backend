@@ -1,0 +1,3 @@
+2024-02-13 14:16:25.278 [http-nio-8080-exec-1] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2024-02-13 15:29:35.933 [http-nio-8080-exec-5] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.multipart.MaxUploadSizeExceededException: Maximum upload size exceeded]
+2024-02-13 15:29:35.938 [http-nio-8080-exec-5] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.multipart.MaxUploadSizeExceededException: Maximum upload size exceeded]
