@@ -108,6 +108,7 @@ public class WorkServiceImpl implements WorkService {
                 //获取结果
                 address = ft.get();
                 log.info("address:{}", address);
+//                threadPoolExecutor.shutdown();
             } catch (InterruptedException | ExecutionException e) {
                 e.printStackTrace();
                 throw new RuntimeException(e);

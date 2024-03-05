@@ -26,14 +26,6 @@ public class WebConfig implements WebMvcConfigurer {
                 .addPathPatterns("/**")
                 .excludePathPatterns("/login/**");
     }
-    /*//添加静态资源访问目录
-    @Override
-    public void addResourceHandlers(ResourceHandlerRegistry registry) {
-        //访问路径
-        registry.addResourceHandler("/images/**")
-                //文件资源目录
-                .addResourceLocations("file:/" + imageUrl);
-    }*/
 
     //设置跨域请求
     /*@Override

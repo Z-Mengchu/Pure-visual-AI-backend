@@ -1,17 +1,450 @@
-2024-02-29 00:02:08.070 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
-2024-02-29 11:08:10.046 [main] INFO  com.mengchu.CompetitionCaseApplicationTests - Starting CompetitionCaseApplicationTests using Java 21.0.1 with PID 8436 (started by 17317 in D:\java-basic\competition-case)
-2024-02-29 11:08:10.049 [main] INFO  com.mengchu.CompetitionCaseApplicationTests - The following 1 profile is active: "dev"
-2024-02-29 11:08:12.540 [main] INFO  com.mengchu.CompetitionCaseApplicationTests - Started CompetitionCaseApplicationTests in 3.008 seconds (process running for 4.202)
-2024-02-29 11:08:13.585 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
-2024-02-29 11:09:08.201 [main] INFO  com.mengchu.CompetitionCaseApplication - Starting CompetitionCaseApplication using Java 21.0.1 with PID 27476 (D:\java-basic\competition-case\target\classes started by 17317 in D:\java-basic\competition-case)
-2024-02-29 11:09:08.203 [main] INFO  com.mengchu.CompetitionCaseApplication - The following 1 profile is active: "dev"
-2024-02-29 11:09:09.315 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
-2024-02-29 11:09:09.349 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
-2024-02-29 11:09:09.352 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2024-02-29 11:09:09.352 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
-2024-02-29 11:09:09.477 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2024-02-29 11:09:09.478 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1243 ms
-2024-02-29 11:09:10.098 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
-2024-02-29 11:09:10.127 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
-2024-02-29 11:09:10.134 [main] INFO  com.mengchu.CompetitionCaseApplication - Started CompetitionCaseApplication in 2.304 seconds (process running for 3.248)
-2024-02-29 11:09:15.041 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2024-03-05 11:27:24.681 [main] INFO  com.mengchu.CompetitionCaseApplication - Starting CompetitionCaseApplication using Java 21.0.1 with PID 30564 (D:\java-basic\competition-case\target\classes started by 17317 in D:\java-basic\competition-case)
+2024-03-05 11:27:24.687 [main] INFO  com.mengchu.CompetitionCaseApplication - The following 1 profile is active: "dev"
+2024-03-05 11:27:25.522 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-03-05 11:27:25.530 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-05 11:27:25.531 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-03-05 11:27:25.532 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-03-05 11:27:25.572 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-03-05 11:27:25.572 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 849 ms
+2024-03-05 11:27:26.136 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-03-05 11:27:26.149 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2024-03-05 11:27:26.155 [main] INFO  com.mengchu.CompetitionCaseApplication - Started CompetitionCaseApplication in 1.936 seconds (process running for 2.925)
+2024-03-05 11:27:38.714 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-05 11:27:38.715 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-03-05 11:27:38.716 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-03-05 11:27:38.896 [http-nio-8080-exec-1] INFO  com.mengchu.controller.LoginController - 用户登陆，zhangsan
+2024-03-05 11:27:39.021 [http-nio-8080-exec-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2024-03-05 11:27:56.675 [http-nio-8080-exec-4] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 11:27:56.676 [http-nio-8080-exec-4] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 11:27:56.679 [http-nio-8080-exec-4] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 11:29:03.138 [http-nio-8080-exec-7] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 11:29:03.138 [http-nio-8080-exec-7] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 11:29:03.139 [http-nio-8080-exec-7] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 11:29:03.140 [http-nio-8080-exec-7] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 11:29:11.501 [http-nio-8080-exec-6] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 11:29:11.501 [http-nio-8080-exec-6] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 11:29:11.502 [http-nio-8080-exec-6] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 11:29:11.502 [http-nio-8080-exec-6] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 11:29:12.138 [http-nio-8080-exec-8] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 11:29:12.139 [http-nio-8080-exec-8] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 11:29:12.139 [http-nio-8080-exec-8] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 11:29:12.140 [http-nio-8080-exec-8] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 11:29:12.754 [http-nio-8080-exec-9] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 11:29:12.755 [http-nio-8080-exec-9] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 11:29:12.755 [http-nio-8080-exec-9] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 11:29:12.756 [http-nio-8080-exec-9] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 11:29:13.292 [http-nio-8080-exec-10] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 11:29:13.292 [http-nio-8080-exec-10] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 11:29:13.293 [http-nio-8080-exec-10] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 11:29:13.293 [http-nio-8080-exec-10] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 11:29:13.870 [http-nio-8080-exec-3] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 11:29:13.870 [http-nio-8080-exec-3] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 11:29:13.871 [http-nio-8080-exec-3] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 11:29:13.871 [http-nio-8080-exec-3] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 11:29:14.413 [http-nio-8080-exec-1] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 11:29:14.413 [http-nio-8080-exec-1] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 11:29:14.413 [http-nio-8080-exec-1] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 11:29:14.414 [http-nio-8080-exec-1] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 11:29:14.934 [http-nio-8080-exec-4] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 11:29:14.934 [http-nio-8080-exec-4] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 11:29:14.934 [http-nio-8080-exec-4] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 11:29:14.934 [http-nio-8080-exec-4] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 11:29:15.510 [http-nio-8080-exec-2] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 11:29:15.511 [http-nio-8080-exec-2] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 11:29:15.511 [http-nio-8080-exec-2] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 11:29:15.511 [http-nio-8080-exec-2] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 11:29:16.060 [http-nio-8080-exec-5] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 11:29:16.060 [http-nio-8080-exec-5] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 11:29:16.060 [http-nio-8080-exec-5] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 11:29:16.061 [http-nio-8080-exec-5] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 11:29:16.583 [http-nio-8080-exec-7] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 11:29:16.583 [http-nio-8080-exec-7] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 11:29:16.584 [http-nio-8080-exec-7] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 11:29:16.584 [http-nio-8080-exec-7] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 11:29:17.093 [http-nio-8080-exec-6] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 11:29:17.094 [http-nio-8080-exec-6] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 11:29:17.094 [http-nio-8080-exec-6] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 11:29:17.094 [http-nio-8080-exec-6] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 11:29:17.445 [http-nio-8080-exec-8] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 11:29:17.445 [http-nio-8080-exec-8] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 11:29:17.445 [http-nio-8080-exec-8] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 11:29:17.446 [http-nio-8080-exec-8] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 11:29:17.837 [http-nio-8080-exec-9] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 11:29:17.837 [http-nio-8080-exec-9] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 11:29:17.838 [http-nio-8080-exec-9] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 11:29:17.838 [http-nio-8080-exec-9] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 11:29:18.166 [http-nio-8080-exec-10] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 11:29:18.166 [http-nio-8080-exec-10] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 11:29:18.167 [http-nio-8080-exec-10] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 11:29:18.167 [http-nio-8080-exec-10] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 11:29:18.493 [http-nio-8080-exec-3] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 11:29:18.493 [http-nio-8080-exec-3] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 11:29:18.493 [http-nio-8080-exec-3] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 11:29:18.494 [http-nio-8080-exec-3] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 11:29:18.784 [http-nio-8080-exec-1] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 11:29:18.784 [http-nio-8080-exec-1] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 11:29:18.784 [http-nio-8080-exec-1] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 11:29:18.784 [http-nio-8080-exec-1] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 11:29:19.162 [http-nio-8080-exec-4] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 11:29:19.163 [http-nio-8080-exec-4] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 11:29:19.163 [http-nio-8080-exec-4] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 11:29:19.163 [http-nio-8080-exec-4] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 11:29:19.809 [http-nio-8080-exec-2] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 11:29:19.809 [http-nio-8080-exec-2] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 11:29:19.809 [http-nio-8080-exec-2] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 11:29:19.809 [http-nio-8080-exec-2] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 11:29:20.167 [http-nio-8080-exec-5] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 11:29:20.167 [http-nio-8080-exec-5] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 11:29:20.167 [http-nio-8080-exec-5] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 11:29:20.167 [http-nio-8080-exec-5] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 11:29:20.563 [http-nio-8080-exec-7] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 11:29:20.564 [http-nio-8080-exec-7] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 11:29:20.564 [http-nio-8080-exec-7] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 11:29:20.564 [http-nio-8080-exec-7] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 11:29:20.965 [http-nio-8080-exec-6] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 11:29:20.965 [http-nio-8080-exec-6] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 11:29:20.965 [http-nio-8080-exec-6] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 11:29:20.966 [http-nio-8080-exec-6] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 11:29:21.434 [http-nio-8080-exec-8] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 11:29:21.434 [http-nio-8080-exec-8] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 11:29:21.435 [http-nio-8080-exec-8] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 11:29:21.435 [http-nio-8080-exec-8] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 11:29:21.841 [http-nio-8080-exec-9] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 11:29:21.842 [http-nio-8080-exec-9] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 11:29:21.842 [http-nio-8080-exec-9] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 11:29:21.842 [http-nio-8080-exec-9] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 11:29:22.250 [http-nio-8080-exec-10] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 11:29:22.250 [http-nio-8080-exec-10] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 11:29:22.250 [http-nio-8080-exec-10] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 11:29:22.251 [http-nio-8080-exec-10] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 11:29:22.659 [http-nio-8080-exec-3] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 11:29:22.659 [http-nio-8080-exec-3] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 11:29:22.659 [http-nio-8080-exec-3] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 11:29:22.660 [http-nio-8080-exec-3] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 11:29:23.089 [http-nio-8080-exec-1] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 11:29:23.089 [http-nio-8080-exec-1] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 11:29:23.089 [http-nio-8080-exec-1] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 11:29:23.089 [http-nio-8080-exec-1] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 11:29:23.505 [http-nio-8080-exec-4] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 11:29:23.505 [http-nio-8080-exec-4] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 11:29:23.506 [http-nio-8080-exec-4] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 11:29:23.506 [http-nio-8080-exec-4] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 11:29:23.925 [http-nio-8080-exec-2] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 11:29:23.925 [http-nio-8080-exec-2] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 11:29:23.925 [http-nio-8080-exec-2] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 11:29:23.926 [http-nio-8080-exec-2] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 11:29:24.271 [http-nio-8080-exec-5] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 11:29:24.271 [http-nio-8080-exec-5] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 11:29:24.271 [http-nio-8080-exec-5] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 11:29:24.272 [http-nio-8080-exec-5] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 11:29:24.615 [http-nio-8080-exec-7] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 11:29:24.615 [http-nio-8080-exec-7] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 11:29:24.616 [http-nio-8080-exec-7] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 11:29:24.616 [http-nio-8080-exec-7] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 11:29:24.906 [http-nio-8080-exec-6] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 11:29:24.906 [http-nio-8080-exec-6] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 11:29:24.907 [http-nio-8080-exec-6] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 11:29:24.907 [http-nio-8080-exec-6] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 11:29:25.246 [http-nio-8080-exec-8] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 11:29:25.246 [http-nio-8080-exec-8] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 11:29:25.246 [http-nio-8080-exec-8] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 11:29:25.246 [http-nio-8080-exec-8] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 11:29:25.655 [http-nio-8080-exec-9] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 11:29:25.656 [http-nio-8080-exec-9] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 11:29:25.656 [http-nio-8080-exec-9] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 11:29:25.656 [http-nio-8080-exec-9] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 11:29:26.035 [http-nio-8080-exec-10] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 11:29:26.035 [http-nio-8080-exec-10] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 11:29:26.035 [http-nio-8080-exec-10] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 11:29:26.035 [http-nio-8080-exec-10] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 11:29:26.385 [http-nio-8080-exec-3] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 11:29:26.385 [http-nio-8080-exec-3] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 11:29:26.386 [http-nio-8080-exec-3] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 11:29:26.386 [http-nio-8080-exec-3] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 11:29:58.407 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2024-03-05 11:29:58.413 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2024-03-05 12:18:05.567 [main] INFO  com.mengchu.CompetitionCaseApplication - Starting CompetitionCaseApplication using Java 21.0.1 with PID 30844 (D:\java-basic\competition-case\target\classes started by 17317 in D:\java-basic\competition-case)
+2024-03-05 12:18:05.569 [main] INFO  com.mengchu.CompetitionCaseApplication - The following 1 profile is active: "dev"
+2024-03-05 12:18:06.243 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-03-05 12:18:06.249 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-05 12:18:06.250 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-03-05 12:18:06.250 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-03-05 12:18:06.283 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-03-05 12:18:06.284 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 685 ms
+2024-03-05 12:18:06.716 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-03-05 12:18:06.738 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2024-03-05 12:18:06.743 [main] INFO  com.mengchu.CompetitionCaseApplication - Started CompetitionCaseApplication in 1.531 seconds (process running for 1.963)
+2024-03-05 12:18:11.548 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-05 12:18:11.548 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-03-05 12:18:11.549 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-03-05 12:18:11.618 [http-nio-8080-exec-1] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 12:18:11.618 [http-nio-8080-exec-1] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 12:18:11.627 [http-nio-8080-exec-1] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 12:18:11.627 [http-nio-8080-exec-1] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 12:18:12.432 [http-nio-8080-exec-4] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 12:18:12.433 [http-nio-8080-exec-4] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 12:18:12.433 [http-nio-8080-exec-4] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 12:18:12.433 [http-nio-8080-exec-4] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 12:18:13.081 [http-nio-8080-exec-2] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 12:18:13.081 [http-nio-8080-exec-2] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 12:18:13.081 [http-nio-8080-exec-2] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 12:18:13.081 [http-nio-8080-exec-2] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 12:18:13.762 [http-nio-8080-exec-9] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 12:18:13.762 [http-nio-8080-exec-9] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 12:18:13.762 [http-nio-8080-exec-9] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 12:18:13.762 [http-nio-8080-exec-9] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 12:18:14.389 [http-nio-8080-exec-6] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 12:18:14.389 [http-nio-8080-exec-6] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 12:18:14.389 [http-nio-8080-exec-6] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 12:18:14.389 [http-nio-8080-exec-6] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 12:18:14.969 [http-nio-8080-exec-7] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 12:18:14.969 [http-nio-8080-exec-7] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 12:18:14.969 [http-nio-8080-exec-7] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 12:18:14.970 [http-nio-8080-exec-7] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 12:18:15.520 [http-nio-8080-exec-8] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 12:18:15.520 [http-nio-8080-exec-8] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 12:18:15.521 [http-nio-8080-exec-8] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 12:18:15.521 [http-nio-8080-exec-8] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 12:18:16.076 [http-nio-8080-exec-10] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 12:18:16.076 [http-nio-8080-exec-10] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 12:18:16.077 [http-nio-8080-exec-10] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 12:18:16.077 [http-nio-8080-exec-10] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 12:18:16.562 [http-nio-8080-exec-5] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 12:18:16.562 [http-nio-8080-exec-5] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 12:18:16.563 [http-nio-8080-exec-5] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 12:18:16.563 [http-nio-8080-exec-5] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 12:18:17.082 [http-nio-8080-exec-3] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 12:18:17.082 [http-nio-8080-exec-3] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 12:18:17.083 [http-nio-8080-exec-3] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 12:18:17.083 [http-nio-8080-exec-3] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 12:18:17.548 [http-nio-8080-exec-1] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 12:18:17.548 [http-nio-8080-exec-1] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 12:18:17.549 [http-nio-8080-exec-1] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 12:18:17.549 [http-nio-8080-exec-1] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 12:18:18.062 [http-nio-8080-exec-4] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 12:18:18.062 [http-nio-8080-exec-4] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 12:18:18.063 [http-nio-8080-exec-4] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 12:18:18.063 [http-nio-8080-exec-4] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 12:18:18.653 [http-nio-8080-exec-2] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 12:18:18.653 [http-nio-8080-exec-2] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 12:18:18.654 [http-nio-8080-exec-2] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 12:18:18.655 [http-nio-8080-exec-2] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 12:18:19.193 [http-nio-8080-exec-9] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 12:18:19.193 [http-nio-8080-exec-9] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 12:18:19.195 [http-nio-8080-exec-9] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 12:18:19.195 [http-nio-8080-exec-9] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 12:18:19.655 [http-nio-8080-exec-6] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 12:18:19.655 [http-nio-8080-exec-6] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 12:18:19.655 [http-nio-8080-exec-6] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 12:18:19.656 [http-nio-8080-exec-6] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 12:18:20.171 [http-nio-8080-exec-7] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 12:18:20.172 [http-nio-8080-exec-7] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 12:18:20.172 [http-nio-8080-exec-7] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 12:18:20.172 [http-nio-8080-exec-7] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 12:18:20.702 [http-nio-8080-exec-8] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 12:18:20.702 [http-nio-8080-exec-8] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 12:18:20.703 [http-nio-8080-exec-8] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 12:18:20.703 [http-nio-8080-exec-8] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 12:18:21.200 [http-nio-8080-exec-10] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 12:18:21.201 [http-nio-8080-exec-10] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 12:18:21.201 [http-nio-8080-exec-10] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 12:18:21.202 [http-nio-8080-exec-10] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 12:18:21.694 [http-nio-8080-exec-5] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 12:18:21.694 [http-nio-8080-exec-5] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 12:18:21.694 [http-nio-8080-exec-5] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 12:18:21.694 [http-nio-8080-exec-5] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 12:18:22.083 [http-nio-8080-exec-3] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 12:18:22.083 [http-nio-8080-exec-3] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 12:18:22.085 [http-nio-8080-exec-3] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 12:18:22.085 [http-nio-8080-exec-3] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 12:18:22.547 [http-nio-8080-exec-1] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 12:18:22.548 [http-nio-8080-exec-1] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 12:18:22.548 [http-nio-8080-exec-1] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 12:18:22.548 [http-nio-8080-exec-1] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 12:18:23.039 [http-nio-8080-exec-4] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 12:18:23.039 [http-nio-8080-exec-4] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 12:18:23.039 [http-nio-8080-exec-4] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 12:18:23.040 [http-nio-8080-exec-4] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 12:18:23.509 [http-nio-8080-exec-2] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 12:18:23.510 [http-nio-8080-exec-2] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 12:18:23.510 [http-nio-8080-exec-2] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 12:18:23.510 [http-nio-8080-exec-2] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 12:18:23.843 [http-nio-8080-exec-9] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 12:18:23.843 [http-nio-8080-exec-9] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 12:18:23.845 [http-nio-8080-exec-9] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 12:18:23.845 [http-nio-8080-exec-9] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 12:18:24.154 [http-nio-8080-exec-6] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 12:18:24.155 [http-nio-8080-exec-6] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 12:18:24.155 [http-nio-8080-exec-6] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 12:18:24.155 [http-nio-8080-exec-6] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 12:18:24.466 [http-nio-8080-exec-7] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 12:18:24.467 [http-nio-8080-exec-7] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 12:18:24.467 [http-nio-8080-exec-7] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 12:18:24.467 [http-nio-8080-exec-7] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 12:18:24.805 [http-nio-8080-exec-8] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 12:18:24.805 [http-nio-8080-exec-8] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 12:18:24.806 [http-nio-8080-exec-8] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 12:18:24.806 [http-nio-8080-exec-8] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 12:18:25.440 [http-nio-8080-exec-10] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 12:18:25.440 [http-nio-8080-exec-10] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 12:18:25.440 [http-nio-8080-exec-10] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 12:18:25.441 [http-nio-8080-exec-10] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 12:18:26.126 [http-nio-8080-exec-5] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 12:18:26.126 [http-nio-8080-exec-5] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 12:18:26.127 [http-nio-8080-exec-5] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 12:18:26.127 [http-nio-8080-exec-5] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 12:18:26.782 [http-nio-8080-exec-3] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 12:18:26.782 [http-nio-8080-exec-3] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 12:18:26.783 [http-nio-8080-exec-3] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 12:18:26.783 [http-nio-8080-exec-3] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 12:40:51.581 [main] INFO  com.mengchu.CompetitionCaseApplication - Starting CompetitionCaseApplication using Java 21.0.1 with PID 24324 (D:\java-basic\competition-case\target\classes started by 17317 in D:\java-basic\competition-case)
+2024-03-05 12:40:51.583 [main] INFO  com.mengchu.CompetitionCaseApplication - The following 1 profile is active: "dev"
+2024-03-05 12:40:52.296 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-03-05 12:40:52.303 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-05 12:40:52.304 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2024-03-05 12:40:52.305 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-03-05 12:40:52.340 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-03-05 12:40:52.340 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 725 ms
+2024-03-05 12:40:52.783 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-03-05 12:40:52.808 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2024-03-05 12:40:52.813 [main] INFO  com.mengchu.CompetitionCaseApplication - Started CompetitionCaseApplication in 1.642 seconds (process running for 2.148)
+2024-03-05 12:40:57.274 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-05 12:40:57.275 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-03-05 12:40:57.276 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-03-05 12:40:57.343 [http-nio-8080-exec-2] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 12:40:57.343 [http-nio-8080-exec-2] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 12:40:57.351 [http-nio-8080-exec-2] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 12:40:57.351 [http-nio-8080-exec-2] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 12:40:58.131 [http-nio-8080-exec-3] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 12:40:58.132 [http-nio-8080-exec-3] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 12:40:58.132 [http-nio-8080-exec-3] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 12:40:58.132 [http-nio-8080-exec-3] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 12:40:58.682 [http-nio-8080-exec-4] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 12:40:58.682 [http-nio-8080-exec-4] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 12:40:58.683 [http-nio-8080-exec-4] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 12:40:58.683 [http-nio-8080-exec-4] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 12:40:59.259 [http-nio-8080-exec-9] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 12:40:59.259 [http-nio-8080-exec-9] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 12:40:59.259 [http-nio-8080-exec-9] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 12:40:59.259 [http-nio-8080-exec-9] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 12:40:59.805 [http-nio-8080-exec-6] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 12:40:59.805 [http-nio-8080-exec-6] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 12:40:59.805 [http-nio-8080-exec-6] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 12:40:59.805 [http-nio-8080-exec-6] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 12:41:00.292 [http-nio-8080-exec-7] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 12:41:00.293 [http-nio-8080-exec-7] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 12:41:00.293 [http-nio-8080-exec-7] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 12:41:00.293 [http-nio-8080-exec-7] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 12:41:00.837 [http-nio-8080-exec-8] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 12:41:00.837 [http-nio-8080-exec-8] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 12:41:00.837 [http-nio-8080-exec-8] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 12:41:00.837 [http-nio-8080-exec-8] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 12:41:01.245 [http-nio-8080-exec-5] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 12:41:01.245 [http-nio-8080-exec-5] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 12:41:01.246 [http-nio-8080-exec-5] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 12:41:01.246 [http-nio-8080-exec-5] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 12:41:01.675 [http-nio-8080-exec-10] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 12:41:01.675 [http-nio-8080-exec-10] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 12:41:01.676 [http-nio-8080-exec-10] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 12:41:01.676 [http-nio-8080-exec-10] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 12:41:02.180 [http-nio-8080-exec-1] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 12:41:02.181 [http-nio-8080-exec-1] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 12:41:02.181 [http-nio-8080-exec-1] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 12:41:02.181 [http-nio-8080-exec-1] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 12:41:02.562 [http-nio-8080-exec-2] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 12:41:02.562 [http-nio-8080-exec-2] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 12:41:02.562 [http-nio-8080-exec-2] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 12:41:02.562 [http-nio-8080-exec-2] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 12:41:02.976 [http-nio-8080-exec-3] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 12:41:02.976 [http-nio-8080-exec-3] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 12:41:02.976 [http-nio-8080-exec-3] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 12:41:02.976 [http-nio-8080-exec-3] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 12:41:03.409 [http-nio-8080-exec-4] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 12:41:03.409 [http-nio-8080-exec-4] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 12:41:03.409 [http-nio-8080-exec-4] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 12:41:03.409 [http-nio-8080-exec-4] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 12:41:04.037 [http-nio-8080-exec-9] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 12:41:04.037 [http-nio-8080-exec-9] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 12:41:04.037 [http-nio-8080-exec-9] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 12:41:04.037 [http-nio-8080-exec-9] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 12:41:05.185 [http-nio-8080-exec-6] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 12:41:05.185 [http-nio-8080-exec-6] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 12:41:05.186 [http-nio-8080-exec-6] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 12:41:05.186 [http-nio-8080-exec-6] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 12:41:05.566 [http-nio-8080-exec-7] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 12:41:05.566 [http-nio-8080-exec-7] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 12:41:05.567 [http-nio-8080-exec-7] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 12:41:05.567 [http-nio-8080-exec-7] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 12:41:05.929 [http-nio-8080-exec-8] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 12:41:05.929 [http-nio-8080-exec-8] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 12:41:05.929 [http-nio-8080-exec-8] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 12:41:05.929 [http-nio-8080-exec-8] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 12:41:06.305 [http-nio-8080-exec-5] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 12:41:06.305 [http-nio-8080-exec-5] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 12:41:06.305 [http-nio-8080-exec-5] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 12:41:06.305 [http-nio-8080-exec-5] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 12:41:06.704 [http-nio-8080-exec-10] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 12:41:06.704 [http-nio-8080-exec-10] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 12:41:06.706 [http-nio-8080-exec-10] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 12:41:06.706 [http-nio-8080-exec-10] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 12:41:07.037 [http-nio-8080-exec-1] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 12:41:07.037 [http-nio-8080-exec-1] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 12:41:07.037 [http-nio-8080-exec-1] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 12:41:07.038 [http-nio-8080-exec-1] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 12:41:07.433 [http-nio-8080-exec-2] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 12:41:07.433 [http-nio-8080-exec-2] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 12:41:07.433 [http-nio-8080-exec-2] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 12:41:07.433 [http-nio-8080-exec-2] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 12:41:07.833 [http-nio-8080-exec-3] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 12:41:07.833 [http-nio-8080-exec-3] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 12:41:07.834 [http-nio-8080-exec-3] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 12:41:07.834 [http-nio-8080-exec-3] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 12:41:08.208 [http-nio-8080-exec-4] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 12:41:08.209 [http-nio-8080-exec-4] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 12:41:08.209 [http-nio-8080-exec-4] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 12:41:08.209 [http-nio-8080-exec-4] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 12:41:08.556 [http-nio-8080-exec-9] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 12:41:08.556 [http-nio-8080-exec-9] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 12:41:08.556 [http-nio-8080-exec-9] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 12:41:08.556 [http-nio-8080-exec-9] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 12:41:08.889 [http-nio-8080-exec-6] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 12:41:08.889 [http-nio-8080-exec-6] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 12:41:08.889 [http-nio-8080-exec-6] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 12:41:08.889 [http-nio-8080-exec-6] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 12:41:09.299 [http-nio-8080-exec-7] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 12:41:09.299 [http-nio-8080-exec-7] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 12:41:09.299 [http-nio-8080-exec-7] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 12:41:09.299 [http-nio-8080-exec-7] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 12:41:09.675 [http-nio-8080-exec-8] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 12:41:09.675 [http-nio-8080-exec-8] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 12:41:09.675 [http-nio-8080-exec-8] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 12:41:09.675 [http-nio-8080-exec-8] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 12:41:10.349 [http-nio-8080-exec-5] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 12:41:10.349 [http-nio-8080-exec-5] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 12:41:10.349 [http-nio-8080-exec-5] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 12:41:10.349 [http-nio-8080-exec-5] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 12:41:10.702 [http-nio-8080-exec-10] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 12:41:10.702 [http-nio-8080-exec-10] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 12:41:10.703 [http-nio-8080-exec-10] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 12:41:10.703 [http-nio-8080-exec-10] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 12:41:11.013 [http-nio-8080-exec-1] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 12:41:11.013 [http-nio-8080-exec-1] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 12:41:11.013 [http-nio-8080-exec-1] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 12:41:11.013 [http-nio-8080-exec-1] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 12:41:11.300 [http-nio-8080-exec-2] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 12:41:11.300 [http-nio-8080-exec-2] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 12:41:11.301 [http-nio-8080-exec-2] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 12:41:11.301 [http-nio-8080-exec-2] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 12:41:13.845 [http-nio-8080-exec-3] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 12:41:13.845 [http-nio-8080-exec-3] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 12:41:13.852 [http-nio-8080-exec-3] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 12:41:13.852 [http-nio-8080-exec-3] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 12:41:14.378 [http-nio-8080-exec-9] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 12:41:14.378 [http-nio-8080-exec-9] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 12:41:14.378 [http-nio-8080-exec-9] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 12:41:14.378 [http-nio-8080-exec-9] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 12:41:16.277 [http-nio-8080-exec-6] INFO  com.mengchu.interceptor.LoginCheckInterceptor - {nickname=null, description=null, id=6, collection=null, exp=1709782059, username=zhangsan}
+2024-03-05 12:41:16.277 [http-nio-8080-exec-6] INFO  com.mengchu.interceptor.LoginCheckInterceptor - 令牌合法，放行
+2024-03-05 12:41:16.277 [http-nio-8080-exec-6] INFO  com.mengchu.controller.WorkController - /modeling被访问
+2024-03-05 12:41:16.277 [http-nio-8080-exec-6] INFO  com.mengchu.service.impl.WorkServiceImpl - 提交生成模型任务
+2024-03-05 12:41:21.950 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
