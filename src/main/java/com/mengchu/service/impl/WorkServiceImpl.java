@@ -2,13 +2,13 @@ package com.mengchu.service.impl;
 
 import com.mengchu.callable.ModelCallable;
 import com.mengchu.mapper.WorkMapper;
-import com.mengchu.pojo.Result;
 import com.mengchu.pojo.Work;
 import com.mengchu.service.WorkService;
 import com.mengchu.utils.AliOSSUtil;
 import com.xiaoleilu.hutool.io.IoUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
@@ -18,25 +18,20 @@ import java.util.List;
 import java.util.Map;
 import java.util.UUID;
 import java.util.concurrent.*;
-import java.util.concurrent.locks.Lock;
-import java.util.concurrent.locks.ReentrantLock;
 
 @Slf4j
 @Service
 public class WorkServiceImpl implements WorkService {
-     ThreadPoolExecutor pool = new ThreadPoolExecutor(
-            3,//核心线程数量
-            17,//最大线程数量
-            20,//空闲线程最大存活时间
-            TimeUnit.MINUTES,//时间单位
-            new ArrayBlockingQueue<>(2),//任务队列
-            Executors.defaultThreadFactory(),//创建线程工厂
-            new ThreadPoolExecutor.AbortPolicy()//任务的拒绝策略
-    );
+    private final ExecutorService threadPoolExecutor;
     static Map<UUID, FutureTask<String>> map = new HashMap<>();
 
     @Autowired
     private WorkMapper mapper;
+
+    @Autowired
+    public WorkServiceImpl(ExecutorService threadPoolExecutor) {
+        this.threadPoolExecutor = threadPoolExecutor;
+    }
 
     @Override
     public List<Work> selectAll() {
@@ -75,8 +70,8 @@ public class WorkServiceImpl implements WorkService {
         log.info("提交生成模型任务");
         //使用uuid作为次级目录名字
         UUID uuid = UUID.randomUUID();
-
         String dir = uuid.toString().replace("-", "");
+        //指定存放的路径
         String domain = "D:\\demo\\" + dir;
         //创建目录结构
         File file = new File(domain);
@@ -92,7 +87,7 @@ public class WorkServiceImpl implements WorkService {
         //在线程池中提交任务
         ModelCallable mc = new ModelCallable(domain);
         FutureTask<String> ft = new FutureTask<>(mc);
-        pool.submit(ft);
+        threadPoolExecutor.submit(ft);
 
         //作为任务标识
         UUID uuid2 = UUID.randomUUID();
