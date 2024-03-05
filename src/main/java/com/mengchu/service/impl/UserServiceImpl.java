@@ -59,8 +59,6 @@ public class UserServiceImpl implements UserService {
         return userMapper.update(user) > 0;
     }
 
-
-
     @Override
     public String updateImage(Integer id, MultipartFile image) throws IOException {
         String address = AliOSSUtil.upload(image);
