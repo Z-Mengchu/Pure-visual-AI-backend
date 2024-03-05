@@ -29,12 +29,12 @@ public class WebConfig implements WebMvcConfigurer {
     }
 
     //设置跨域请求
-    @Override
+    /*@Override
     public void addCorsMappings(CorsRegistry registry) {
         registry.addMapping("/**")  // 所有的当前站点的请求地址，都支持跨域访问。
                 .allowedOrigins("*")  // 所有的外部域都可以跨域访问。如果是localhost形式的域名,需要设置为"localhost"
                 .allowCredentials(true)  // 是否支持跨域用户凭证
                 .allowedMethods("GET", "POST", "DELETE", "PUT")  // 当前站点支持的跨域请求类型是什么
                 .maxAge(3600);  // 预检请求的有效期，单位为秒。
-    }
+    }*/
 }
