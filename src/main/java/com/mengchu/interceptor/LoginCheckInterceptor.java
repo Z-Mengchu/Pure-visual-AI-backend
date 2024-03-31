@@ -38,7 +38,6 @@ public class LoginCheckInterceptor implements HandlerInterceptor {
         } catch (SignatureException e) {
             //解析jwt错误，记录日志
             log.error("jwt解析错误，{}", jwt);
-            e.printStackTrace();
             //3.2校验失败，返回错误信息
             Result error = new Result(Code.JWT_ERR, Message.JWT_ERR, null);
             String jsonString = JSONObject.toJSONString(error);
@@ -48,7 +47,6 @@ public class LoginCheckInterceptor implements HandlerInterceptor {
         } catch (ExpiredJwtException e){
             //jwt过期，记录日志
             log.error("jwt过期，{}", jwt);
-            e.printStackTrace();
             //3.2校验失败，返回错误信息
             Result error = new Result(Code.LOGIN_EXPIRED, Message.LOGIN_EXPIRED, null);
             String jsonString = JSONObject.toJSONString(error);

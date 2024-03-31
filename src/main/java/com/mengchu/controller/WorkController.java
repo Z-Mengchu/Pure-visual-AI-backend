@@ -15,6 +15,7 @@ import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.multipart.MultipartHttpServletRequest;
 
 import java.io.IOException;
+import java.net.URISyntaxException;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -53,7 +54,7 @@ public class WorkController {
     @GetMapping("/{id}")
     public Result selectById(@PathVariable Integer id) {
         if (id <= 0){
-            throw new BusinessException(Code.BUSINESS_ERR, "没这个id，别搞了");
+            throw new BusinessException(Code.BUSINESS_ERR, "查无此id");
         }
         Work work = service.selectById(id);
         log.info("查询作品，{}", work);
@@ -68,6 +69,13 @@ public class WorkController {
             return new Result(Code.WORK_MODELING_ERR, Message.WORK_MODELING_ERR, null);
         }
         UUID uuid = service.modeling(image);
+        return new Result(Code.WORK_MODELING_OK, Message.WORK_MODELING_OK, uuid);
+    }
+
+    @PostMapping("/modeling-test")
+    public Result modeling() {
+        log.info("/modeling-test被访问");
+        UUID uuid = service.modeling();
         return new Result(Code.WORK_MODELING_OK, Message.WORK_MODELING_OK, uuid);
     }
 

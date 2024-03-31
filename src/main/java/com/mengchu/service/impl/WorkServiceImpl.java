@@ -1,5 +1,6 @@
 package com.mengchu.service.impl;
 
+import com.mengchu.CompetitionCaseApplication;
 import com.mengchu.callable.ModelCallable;
 import com.mengchu.mapper.WorkMapper;
 import com.mengchu.pojo.Work;
@@ -8,11 +9,15 @@ import com.mengchu.utils.AliOSSUtil;
 import com.xiaoleilu.hutool.io.IoUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.system.ApplicationHome;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.io.*;
+import java.net.URISyntaxException;
+import java.net.URLDecoder;
+import java.nio.charset.StandardCharsets;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -71,15 +76,24 @@ public class WorkServiceImpl implements WorkService {
         //使用uuid作为次级目录名字
         UUID uuid = UUID.randomUUID();
         String dir = uuid.toString().replace("-", "");
-        //指定存放的路径
-        String domain = "D:\\demo\\" + dir;
-        //创建目录结构
+        //获取jar包运行所在目录
+        ApplicationHome h = new ApplicationHome(getClass());
+        String jarDir = h.getSource().getParentFile().toString();
+        log.info("jarDir:{}", jarDir);
+        //pict文件夹用来存放传进来的图片文件
+        //dir用来分装不同的文件夹
+        String rootDir = jarDir + File.separator + "pict";
+        String domain = rootDir + File.separator + dir;
+        log.info("domain:{}", domain);
         File file = new File(domain);
-        file.mkdirs();
+        //创建目录结构
+        if (!file.exists()) {
+            file.mkdirs();
+        }
         //将输入的图片拷贝放进文件夹
         for (MultipartFile multipartFile : image) {
             InputStream is = multipartFile.getInputStream();
-            OutputStream os = new FileOutputStream(domain + "\\" + UUID.randomUUID() + ".jpg");
+            OutputStream os = new FileOutputStream(domain + File.separator + UUID.randomUUID() + ".jpg");
             IoUtil.copy(is, os);
             is.close();
             os.close();
@@ -95,6 +109,29 @@ public class WorkServiceImpl implements WorkService {
         //提交任务标识队列
         map.put(uuid2, ft);
         return uuid2;
+    }
+
+    /**
+     * 方便测试，直接使用文件夹
+     * @return
+     */
+    @Override
+    public UUID modeling() {
+        log.info("提交生成模型任务");
+        //测试图片所在文件夹
+        String domain = "C:\\Users\\11386\\Desktop\\SCCA\\2T\\image";
+
+        //在线程池中提交任务
+        ModelCallable mc = new ModelCallable(domain);
+        FutureTask<String> ft = new FutureTask<>(mc);
+        threadPoolExecutor.submit(ft);
+
+        //作为任务标识
+        UUID uuid = UUID.randomUUID();
+
+        //提交任务标识队列
+        map.put(uuid, ft);
+        return uuid;
     }
 
     @Override
@@ -114,6 +151,8 @@ public class WorkServiceImpl implements WorkService {
             }
             //将文件上传到阿里云oss
             return AliOSSUtil.upload(new File(address));
+            //测试，先传OK，测试做完就把上面那一行打开
+            //return "OK";
         }
         return "Modeling";
     }

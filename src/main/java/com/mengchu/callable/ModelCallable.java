@@ -35,12 +35,9 @@ public class ModelCallable implements Callable<String> {
                 return null;
             }
             String url2 = rootPath + "/task/" + response.substring(1, response.length() - 1);
-            String url3 = url2 + "/path";
 
-            //向python端定时发送get请求
-            //使用Callable获得返回值
-            //设置定时任务
-            TimerCallable task = new TimerCallable(restTemplate, url3);
+            //设置定时任务 (向python端定时发送get请求)
+            TimerCallable task = new TimerCallable(restTemplate, url2);
 
             FutureTask<String> futureTask = new FutureTask<>(task);
             futureTask.run();
