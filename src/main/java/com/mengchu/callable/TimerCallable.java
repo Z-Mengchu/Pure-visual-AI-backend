@@ -21,15 +21,15 @@ public class TimerCallable implements Callable<String> {
             //获取返回状态码
             String result = restTemplate.getForObject(url, String.class);
             log.info("任务状态码 result:{}", result);
-            //使用线程休眠来做定时任务
             //一分钟发一次请求
-            Thread.sleep(60000);
-            //返回-2说明建模已经完成
+            //返回-1说明建模已经完成
             if (result != null && result.equals("-1")) {
                 //返回值是建模文件存放的地址
                 String url2 = url + "/path";
                 return restTemplate.getForObject(url2, String.class);
             }
+            //使用线程休眠来做定时任务
+            Thread.sleep(60000);
         }
     }
 }

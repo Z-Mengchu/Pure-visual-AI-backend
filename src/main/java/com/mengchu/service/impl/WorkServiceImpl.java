@@ -7,9 +7,12 @@ import com.mengchu.pojo.Work;
 import com.mengchu.service.WorkService;
 import com.mengchu.utils.AliOSSUtil;
 import com.xiaoleilu.hutool.io.IoUtil;
+import com.xiaoleilu.hutool.util.ZipUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.system.ApplicationHome;
+import org.springframework.core.io.FileSystemResource;
+import org.springframework.core.io.Resource;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
@@ -75,17 +78,18 @@ public class WorkServiceImpl implements WorkService {
         log.info("提交生成模型任务");
         //使用uuid作为次级目录名字
         UUID uuid = UUID.randomUUID();
+        //dir用来分装不同的文件夹
         String dir = uuid.toString().replace("-", "");
         //获取jar包运行所在目录
         ApplicationHome h = new ApplicationHome(getClass());
         String jarDir = h.getSource().getParentFile().toString();
         log.info("jarDir:{}", jarDir);
         //pict文件夹用来存放传进来的图片文件
-        //dir用来分装不同的文件夹
-        String rootDir = jarDir + File.separator + "pict";
+        String rootDir = jarDir + File.separator + "temp" + File.separator + "pict";
         String domain = rootDir + File.separator + dir;
         log.info("domain:{}", domain);
         File file = new File(domain);
+
         //创建目录结构
         if (!file.exists()) {
             file.mkdirs();
@@ -98,8 +102,10 @@ public class WorkServiceImpl implements WorkService {
             is.close();
             os.close();
         }
+        //压缩文件
+        File zipPath = ZipUtil.zip(domain);
         //在线程池中提交任务
-        ModelCallable mc = new ModelCallable(domain);
+        ModelCallable mc = new ModelCallable(zipPath);
         FutureTask<String> ft = new FutureTask<>(mc);
         threadPoolExecutor.submit(ft);
 
@@ -115,11 +121,11 @@ public class WorkServiceImpl implements WorkService {
      * 方便测试，直接使用文件夹
      * @return
      */
-    @Override
+    /*@Override
     public UUID modeling() {
         log.info("提交生成模型任务");
         //测试图片所在文件夹
-        String domain = "C:\\Users\\11386\\Desktop\\SCCA\\2T\\image";
+        File domain = new File("C:\\Users\\17317\\Documents\\WeChat Files\\wxid_pnzcefkvtu0g22\\FileStorage\\File\\2024-04\\testdata.zip");
 
         //在线程池中提交任务
         ModelCallable mc = new ModelCallable(domain);
@@ -132,7 +138,7 @@ public class WorkServiceImpl implements WorkService {
         //提交任务标识队列
         map.put(uuid, ft);
         return uuid;
-    }
+    }*/
 
     @Override
     public String getModel(UUID uuid) throws IOException {
@@ -149,10 +155,9 @@ public class WorkServiceImpl implements WorkService {
                 e.printStackTrace();
                 throw new RuntimeException(e);
             }
-            //将文件上传到阿里云oss
-            return AliOSSUtil.upload(new File(address));
-            //测试，先传OK，测试做完就把上面那一行打开
-            //return "OK";
+            /*//将文件上传到阿里云oss
+            return AliOSSUtil.upload(new File(address));*/
+            return address;
         }
         return "Modeling";
     }

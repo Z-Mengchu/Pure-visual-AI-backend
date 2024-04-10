@@ -66,22 +66,33 @@ public class WorkController {
     public Result modeling(MultipartFile[] image) throws IOException, ExecutionException, InterruptedException {
         log.info("/modeling被访问");
         if (image == null){
+            log.info("image == null");
             return new Result(Code.WORK_MODELING_ERR, Message.WORK_MODELING_ERR, null);
         }
         UUID uuid = service.modeling(image);
+        log.info("提交成功，image数量：{}", image.length);
         return new Result(Code.WORK_MODELING_OK, Message.WORK_MODELING_OK, uuid);
     }
 
-    @PostMapping("/modeling-test")
-    public Result modeling() {
+    /**
+     * 测试接口
+     * @param taskId
+     * @return
+     * @throws IOException
+     * @throws ExecutionException
+     * @throws InterruptedException
+     */
+    /*@PostMapping("/modeling-test")
+    public Result modeling() throws IOException, ExecutionException, InterruptedException {
         log.info("/modeling-test被访问");
         UUID uuid = service.modeling();
         return new Result(Code.WORK_MODELING_OK, Message.WORK_MODELING_OK, uuid);
-    }
+    }*/
 
     @GetMapping("/get")
     public Result getModel(UUID taskId) throws IOException, ExecutionException, InterruptedException {
         log.info("/get被访问");
+        log.info("taskId:{}", taskId);
         String address = service.getModel(taskId);
         if ("Modeling".equals(address)){
             return new Result(Code.GET_MODEL_ERR, Message.GET_MODEL_ERR, null);

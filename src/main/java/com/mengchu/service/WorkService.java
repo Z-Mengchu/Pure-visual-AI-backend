@@ -34,11 +34,7 @@ public interface WorkService {
      */
     UUID modeling(MultipartFile[] image) throws IOException, ExecutionException, InterruptedException;
 
-    /**
-     * 用于方便测试，底层直接传入一个测试用的图片文件夹
-     * @return
-     */
-    UUID modeling();
+//    UUID modeling() throws IOException, ExecutionException, InterruptedException;
 
     /**
      * 用于获取模型地址

@@ -11,16 +11,17 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 @Configuration
 public class WebConfig implements WebMvcConfigurer {
-    @Autowired
-    private HandlerInterceptor interceptor;
+    /*@Autowired
+    private HandlerInterceptor interceptor;*/
 
     //设置拦截器
-    @Override
+    //登录拦截
+    /*@Override
     public void addInterceptors(InterceptorRegistry registry) {
         registry.addInterceptor(interceptor)
                 .addPathPatterns("/**")
-                .excludePathPatterns("/login/**", "/users/**");//登录拦截
-    }
+                .excludePathPatterns("/login/**", "/users/**");
+    }*/
 
     //设置跨域请求
     @Override

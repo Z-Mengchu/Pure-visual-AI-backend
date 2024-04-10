@@ -3,33 +3,22 @@ package com.mengchu;
 import com.aliyun.oss.OSS;
 import com.aliyun.oss.OSSClientBuilder;
 import com.aliyun.oss.OSSException;
-import com.aliyun.oss.common.auth.CredentialsProviderFactory;
-import com.aliyun.oss.common.auth.EnvironmentVariableCredentialsProvider;
 import com.aliyun.oss.model.PutObjectRequest;
-import com.aliyun.oss.model.PutObjectResult;
 import com.mengchu.mapper.UserMapper;
-import com.mengchu.pojo.Modeling;
+import com.mengchu.pojo.RequestParam;
 import com.mengchu.pojo.Rems;
-import com.xiaoleilu.hutool.io.IoUtil;
+import com.xiaoleilu.hutool.util.ZipUtil;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.web.client.RestTemplate;
 
 import java.io.*;
-import java.net.URL;
 import java.util.Timer;
 import java.util.TimerTask;
 import java.util.UUID;
 import com.aliyun.oss.ClientException;
-import com.aliyun.oss.OSS;
-import com.aliyun.oss.OSSClientBuilder;
-import com.aliyun.oss.OSSException;
-import com.aliyun.oss.common.auth.CredentialsProviderFactory;
-import com.aliyun.oss.common.auth.EnvironmentVariableCredentialsProvider;
-import org.springframework.web.multipart.MultipartFile;
 
-import java.io.ByteArrayInputStream;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.ScheduledThreadPoolExecutor;
@@ -96,8 +85,8 @@ class CompetitionCaseApplicationTests {
 			OutputStream os = new FileOutputStream("D:\\demo\\" + UUID.randomUUID() + ".jpg");
 			IoUtil.copy(is, os);
 		}*/
-		Modeling modeling = new Modeling("D:\\demo", new Rems());
-		UUID response = restTemplate.postForObject(url1, modeling, UUID.class);
+		RequestParam requestParam = new RequestParam();
+		UUID response = restTemplate.postForObject(url1, requestParam, UUID.class);
 		System.out.println(response);
 		String url2 = root + "/task/" + response;
 		System.out.println(url2);
@@ -143,5 +132,21 @@ class CompetitionCaseApplicationTests {
 		ScheduledExecutorService service = new ScheduledThreadPoolExecutor(17);
 		service.scheduleAtFixedRate(()->System.out.println("这是一条任务")
 		, 1, 1, TimeUnit.SECONDS);
+	}
+
+	@Test
+	void test5() throws IOException {
+		File zip = ZipUtil.zip("D:\\大学\\competition_case");
+		System.out.println(zip);
+	}
+
+	@Test
+	void test6() {
+		String str1 = "D:/AM/server/out/123/output.ply";
+		int index1 = str1.indexOf("out");
+		int index2 = str1.lastIndexOf(File.separator);
+		String temp = str1.substring(index1, index2 + 1);
+		String result = "http://193.112.98.244:6006/" + temp;
+		System.out.println(result);
 	}
 }
