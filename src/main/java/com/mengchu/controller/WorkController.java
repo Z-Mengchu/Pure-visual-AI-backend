@@ -25,6 +25,7 @@ import java.util.concurrent.*;
 @Slf4j
 @RestController
 @RequestMapping("/works")
+
 public class WorkController {
     @Autowired
     private WorkService service;
@@ -63,6 +64,7 @@ public class WorkController {
     }
 
     @PostMapping("/modeling")
+    @noRepeatSubmit
     public Result modeling(MultipartFile[] image) throws IOException, ExecutionException, InterruptedException {
         log.info("/modeling被访问");
         if (image == null){

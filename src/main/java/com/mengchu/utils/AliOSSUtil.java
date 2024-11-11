@@ -30,7 +30,7 @@ public class AliOSSUtil {
     public static String upload(MultipartFile file) throws IOException {
         //获取上传文件的输入流
         InputStream is = file.getInputStream();
-        String url = null;
+        String url = "";
         try {
             //源文件名
             String originalFilename = file.getOriginalFilename();
@@ -66,7 +66,7 @@ public class AliOSSUtil {
     public static String upload(File file) throws IOException {
         //获取上传文件的输入流
         InputStream is = new FileInputStream(file);
-        String url = null;
+        String url = "";
         try {
             //源文件名
             String originalFilename = file.getName();

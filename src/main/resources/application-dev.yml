@@ -1,0 +1,38 @@
+spring:
+  # 设置开发环境
+  config:
+    activate:
+      on-profile: dev
+  # 设置数据源
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://111.229.245.214:3306/zmj?characterEncoding=utf-8
+    username: zmj
+    password: mj034416
+    type: com.alibaba.druid.pool.DruidDataSource
+  # 设置单个上传文件的大小（默认为1MB）
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      # 设置一次请求最大上传文件的大小（默认为10MB）
+      max-request-size: 2GB
+# 开启驼峰命名自动映射
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+    # 配置mybatis输出日志
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+#开启spring事务管理日志
+logging:
+  config: classpath:config/logback-spring.xml
+  level:
+    org.springframework.jdbc.support.JdbcTransactionManager: debug
+
+# 设置编码
+server:
+  servlet:
+    encoding:
+      charset: utf-8
+  tomcat:
+    uri-encoding: UTF-8
+  port: 8081

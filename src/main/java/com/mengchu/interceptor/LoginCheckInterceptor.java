@@ -29,6 +29,7 @@ public class LoginCheckInterceptor implements HandlerInterceptor {
             String jsonString = JSONObject.toJSONString(error);
             response.getWriter().write(jsonString);
             log.info("未登录，NOT_LOGIN");
+            //不放行
             return false;
         }
         try {

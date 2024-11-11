@@ -6,7 +6,6 @@ import com.mengchu.service.UserService;
 import com.mengchu.utils.JwtUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -30,9 +29,6 @@ public class LoginController {
             Map<String, Object> claims = new HashMap<>();
             claims.put("id",u.getId());
             claims.put("username",u.getUsername());
-            claims.put("nickname",u.getNickname());
-            claims.put("description",u.getDescription());
-            claims.put("collection",u.getCollection());
             //生成jwt令牌
             String jwt = JwtUtil.generateJwt(claims);
             //封装登陆信息

@@ -1,7 +1,7 @@
 # 设置启用环境
 spring:
   profiles:
-    active: test
+    active: dev
 ---
 spring:
   # 设置开发环境
@@ -10,11 +10,11 @@ spring:
       on-profile: dev
   # 设置数据源
   datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/mycase_db?useSSL=false&useServerPrepStmts=true
-    username: root
-    password: mj034416
     type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://111.229.245.214:3306/zmj?characterEncoding=utf-8
+    username: zmj
+    password: mj034416
   # 设置单个上传文件的大小（默认为1MB）
   servlet:
     multipart:
@@ -32,6 +32,7 @@ logging:
   config: classpath:config/logback-spring.xml
   level:
     org.springframework.jdbc.support.JdbcTransactionManager: debug
+
 # 设置编码
 server:
   servlet:
@@ -39,6 +40,7 @@ server:
       charset: utf-8
   tomcat:
     uri-encoding: UTF-8
+  port: 8081
 ---
 spring:
   # 设置测试环境
@@ -48,9 +50,9 @@ spring:
   # 设置数据源
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://43.136.100.12:3306/zmj?useSSL=false&useServerPrepStmts=true
+    url: jdbc:mysql://111.229.245.214:3306/zmj
     username: zmj
-    password: zhuangmujie
+    password: mj034416
     type: com.alibaba.druid.pool.DruidDataSource
   # 设置单个上传文件的大小（默认为1MB）
   servlet:
@@ -85,9 +87,9 @@ spring:
   # 设置数据源
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://43.136.100.12:3306/zmj?useSSL=false&useServerPrepStmts=true
+    url: jdbc:mysql://111.229.245.214:3306/zmj
     username: zmj
-    password: zhuangmujie
+    password: mj034416
     type: com.alibaba.druid.pool.DruidDataSource
   # 设置单个上传文件的大小（默认为1MB）
   servlet:

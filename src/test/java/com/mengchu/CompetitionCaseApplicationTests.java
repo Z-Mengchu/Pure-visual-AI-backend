@@ -14,6 +14,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.web.client.RestTemplate;
 
 import java.io.*;
+import java.util.Scanner;
 import java.util.Timer;
 import java.util.TimerTask;
 import java.util.UUID;
@@ -148,5 +149,12 @@ class CompetitionCaseApplicationTests {
 		String temp = str1.substring(index1, index2 + 1);
 		String result = "http://193.112.98.244:6006/" + temp;
 		System.out.println(result);
+	}
+
+	@Test
+	void test7(){
+		Scanner sc = new Scanner(System.in);
+		sc.nextLine();
+
 	}
 }

@@ -1,30 +1,19 @@
 package com.mengchu.service.impl;
 
-import com.mengchu.CompetitionCaseApplication;
 import com.mengchu.callable.ModelCallable;
 import com.mengchu.mapper.WorkMapper;
 import com.mengchu.pojo.Work;
 import com.mengchu.service.WorkService;
-import com.mengchu.utils.AliOSSUtil;
 import com.xiaoleilu.hutool.io.IoUtil;
 import com.xiaoleilu.hutool.util.ZipUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.system.ApplicationHome;
-import org.springframework.core.io.FileSystemResource;
-import org.springframework.core.io.Resource;
-import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.io.*;
-import java.net.URISyntaxException;
-import java.net.URLDecoder;
-import java.nio.charset.StandardCharsets;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.UUID;
+import java.util.*;
 import java.util.concurrent.*;
 
 @Slf4j
@@ -50,7 +39,7 @@ public class WorkServiceImpl implements WorkService {
     public boolean saveWork(Work work) {
         Work w = mapper.selectByUrl(work.getUrl());
         if (w != null) {
-            //说明该模型作品已经存在
+            //该模型作品已经存在
             return false;
         }
         return mapper.save(work) > 0;
@@ -81,8 +70,8 @@ public class WorkServiceImpl implements WorkService {
         //dir用来分装不同的文件夹
         String dir = uuid.toString().replace("-", "");
         //获取jar包运行所在目录
-        ApplicationHome h = new ApplicationHome(getClass());
-        String jarDir = h.getSource().getParentFile().toString();
+        ApplicationHome home = new ApplicationHome(getClass());
+        String jarDir = home.getSource().getParentFile().toString();
         log.info("jarDir:{}", jarDir);
         //pict文件夹用来存放传进来的图片文件
         String rootDir = jarDir + File.separator + "temp" + File.separator + "pict";

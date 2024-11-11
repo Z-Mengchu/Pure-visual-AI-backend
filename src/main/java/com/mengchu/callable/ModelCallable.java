@@ -30,7 +30,8 @@ public class ModelCallable implements Callable<String> {
     public String call() {
         String result = null;
         try {
-            String rootPath = "http://193.112.98.244:6006";
+//            String rootPath = "http://193.112.98.244:6006";
+            String rootPath = "http://localhost:6006";
             //获取restTemplate实例
             RestTemplate restTemplate = new RestTemplate();
             String url1 = rootPath + "/task";
@@ -65,7 +66,7 @@ public class ModelCallable implements Callable<String> {
             int index1 = data.indexOf("out");
             int index2 = data.lastIndexOf("/");
             String temp = data.substring(index1, index2 + 1);
-            result = "http://193.112.98.244:6006/" + temp;
+            result = "http://localhost:6006/" + temp;
         } catch (RestClientException | InterruptedException | ExecutionException e) {
             e.printStackTrace();
             Thread.currentThread().interrupt();

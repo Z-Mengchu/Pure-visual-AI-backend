@@ -8,8 +8,8 @@ import java.util.Date;
 import java.util.Map;
 
 public class JwtUtil {
-    private static String signKey = "mengchu";//签名密钥
-    private static Long expire = 172800000L;//过期时间（48）小时
+    private static final String signKey = "mengchu";//签名密钥
+    private static final Long expire = 172800000L;//过期时间（48）小时
 
 
     /**

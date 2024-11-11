@@ -1,11 +1,11 @@
 package com.mengchu.config;
 
-import com.mengchu.callable.ModelCallable;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 import java.util.concurrent.*;
 
+/*在配置类中将自定义线程池注入IOC容器*/
 @Configuration
 public class ThreadPoolConfig {
     @Bean

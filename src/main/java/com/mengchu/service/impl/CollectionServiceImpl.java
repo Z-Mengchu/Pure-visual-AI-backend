@@ -6,6 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.ArrayList;
+
 @Transactional(rollbackFor = Exception.class)
 @Service
 public class CollectionServiceImpl implements CollectionService {
@@ -18,7 +20,6 @@ public class CollectionServiceImpl implements CollectionService {
         }
         return mapper.save(uid, pid) > 0;
     }
-
     @Override
     public boolean isCollected(Integer uid, Integer pid) {
         return mapper.selectByUidAndPid(uid, pid) != null;
